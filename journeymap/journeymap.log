@@ -1,0 +1,96 @@
+[16:27:17] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[16:27:17] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[16:27:17] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[16:27:17] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[16:27:17] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[16:27:17] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[16:27:17] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[16:27:17] [Render thread/INFO] [PropertiesBase] core (FirstLoaded) Setting config file to version "5.9.7": journeymap.core.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] core (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\config\5.9\journeymap.core.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] fullmap (FirstLoaded) Setting config file to version "5.9.7": journeymap.fullmap.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] fullmap (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\config\5.9\journeymap.fullmap.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] minimap (Initialized) Setting config file to version "5.9.7": journeymap.minimap.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] minimap (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\config\5.9\journeymap.minimap.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] minimap2 (FirstLoaded) Setting config file to version "5.9.7": journeymap.minimap2.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] minimap2 (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\config\5.9\journeymap.minimap2.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] topo (FirstLoaded) Setting config file to version "5.9.7": journeymap.topo.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] topo (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\config\5.9\journeymap.topo.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] webmap (FirstLoaded) Setting config file to version "5.9.7": journeymap.webmap.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] webmap (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\config\5.9\journeymap.webmap.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] waypoint (FirstLoaded) Setting config file to version "5.9.7": journeymap.waypoint.config
+[16:27:17] [Render thread/INFO] [PropertiesBase] waypoint (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\config\5.9\journeymap.waypoint.config
+[16:27:17] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.7, built with forge 1.18.2-40.1.86
+forge: 40.2.9
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=SavedOk, file=journeymap.minimap.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=SavedOk, file=journeymap.minimap2.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+FullMapProperties{state=SavedOk, file=journeymap.fullmap.config, configVersion=5.9.7, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+WaypointProperties{state=SavedOk, file=journeymap.waypoint.config, configVersion=5.9.7, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
+WebMapProperties{state=SavedOk, file=journeymap.webmap.config, configVersion=5.9.7, port=8080, enabled=false}
+CoreProperties{state=SavedOk, file=journeymap.core.config, configVersion=5.9.7, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[16:27:17] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[16:27:17] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 324.2ms
+[16:27:55] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[16:27:55] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[16:27:55] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[16:27:55] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[16:27:55] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 189.71ms
+[16:30:56] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[16:32:03] [Server thread/INFO] [PropertiesBase] global (FirstLoaded) Setting config file to version "5.9.7": journeymap.server.global.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] global (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.global.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] default (FirstLoaded) Setting config file to version "5.9.7": journeymap.server.default.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] default (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.default.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] minecraft~overworld (Initialized) Setting config file to version "5.9.7": journeymap.server.minecraft~overworld.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] minecraft~overworld (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.minecraft~overworld.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] bonsaitrees3~growtown (Initialized) Setting config file to version "5.9.7": journeymap.server.bonsaitrees3~growtown.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] bonsaitrees3~growtown (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.bonsaitrees3~growtown.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] ae2~spatial_storage (Initialized) Setting config file to version "5.9.7": journeymap.server.ae2~spatial_storage.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] ae2~spatial_storage (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.ae2~spatial_storage.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] minecraft~the_nether (Initialized) Setting config file to version "5.9.7": journeymap.server.minecraft~the_nether.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] minecraft~the_nether (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.minecraft~the_nether.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] twilightforest~twilight_forest (Initialized) Setting config file to version "5.9.7": journeymap.server.twilightforest~twilight_forest.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] twilightforest~twilight_forest (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.twilightforest~twilight_forest.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] bloodmagic~dungeon (Initialized) Setting config file to version "5.9.7": journeymap.server.bloodmagic~dungeon.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] bloodmagic~dungeon (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.bloodmagic~dungeon.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] compactmachines~compact_world (Initialized) Setting config file to version "5.9.7": journeymap.server.compactmachines~compact_world.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] compactmachines~compact_world (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.compactmachines~compact_world.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] minecraft~the_end (Initialized) Setting config file to version "5.9.7": journeymap.server.minecraft~the_end.config
+[16:32:03] [Server thread/INFO] [PropertiesBase] minecraft~the_end (Valid) Creating config file: C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\server\5.9\journeymap.server.minecraft~the_end.config
+[16:32:26] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[16:32:26] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[16:32:26] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[16:32:26] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\sp\New World\waypoints
+[16:32:26] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\sp\New World\overworld. Memory: 6896MB total, 690MB free 
+[16:32:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
+[16:32:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/drygmy_brown.png
+[16:32:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[16:32:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/carbuncle_wild_orange.png
+[16:32:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[16:32:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/sylph_summer.png
+[16:32:27] [Render thread/INFO] [ChatLog] 
+[16:32:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
+[16:32:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/smallmouth_bass.png
+[16:33:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/perch.png
+[16:33:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/brown_trout.png
+[16:33:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
+[16:33:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/bluegill.png
+[16:33:35] [Render thread/INFO] [DeathPointHandler] Narzulz died at BlockPos{x=5, y=70, z=8}. Deathpoints enabled: true. Deathpoint created: true
+[16:34:06] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\mp\offline\minecraft:overworld
