@@ -1,12 +1,12 @@
-[08:27:54] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[08:27:54] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[08:27:54] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[08:27:54] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[08:27:54] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.coremod.compatibility.journeymap.JourneymapPlugin
-[08:27:54] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[08:27:54] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[08:27:54] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[08:27:54] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.7, built with forge 1.18.2-40.1.86
+[10:00:15] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[10:00:15] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[10:00:15] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[10:00:15] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[10:00:15] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.coremod.compatibility.journeymap.JourneymapPlugin
+[10:00:15] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[10:00:15] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[10:00:15] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[10:00:15] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.7, built with forge 1.18.2-40.1.86
 forge: 40.2.9
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -18,67 +18,47 @@ Features:
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
 	MapBiome : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=night, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-119, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-119, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.7, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.7, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.7, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.7, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.7, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.7, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[08:27:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[08:27:54] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 212.14ms
-[08:28:41] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[08:28:41] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[08:28:41] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[08:28:41] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[08:28:41] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 192.3ms
-[08:31:35] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[08:33:35] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[08:33:35] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[08:33:35] [Render thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\sp\New World\waypoints
-[08:33:35] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\sp\New World\overworld. Memory: 17120MB total, 4974MB free 
-[08:33:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/kangaroo.png
-[08:33:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[08:33:36] [Render thread/INFO] [ChatLog] 
-[08:34:43] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:34:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/packhunter.png
-[08:34:43] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:34:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/minnow.png
-[08:34:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/red_grouper.png
-[08:34:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/carp.png
-[08:34:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/jellyfish.png
-[08:34:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for aquaculture:textures/entity_icon/fish/atlantic_herring.png
-[08:35:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_elemental:textures/entity_icon/mermaid_brain.png
-[08:36:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
-[08:36:16] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:36:16] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:36:16] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:36:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/emu.png
-[08:36:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/emu_blonde.png
-[08:36:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/maned_wolf.png
-[08:36:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:38:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seal.png
-[08:38:42] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeletonmex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:38:42] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:38:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/woodworker.png
-[08:38:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/engineer.png
-[08:38:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/scribe.png
-[08:38:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for guardvillagers:textures/entity_icon/guard/guard_2.png
-[08:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/florist.png
-[08:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/hunter.png
-[08:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for immersiveengineering:textures/entity_icon/villager/outfitter.png
-[08:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for immersiveengineering:textures/entity_icon/villager/machinist.png
-[08:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for productivebees:textures/entity_icon/bee/chocolate_mining/bee.png
-[08:39:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/beehive.png
-[08:39:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/gazelle.png
-[08:39:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seagull.png
-[08:43:59] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\mp\offline\minecraft:overworld
-[08:43:59] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@19a0826f
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[10:00:15] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[10:00:15] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 179.39ms
+[10:00:56] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[10:00:56] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[10:00:56] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[10:00:56] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[10:00:56] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 190.98ms
+[10:03:59] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[10:05:11] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[10:05:11] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[10:05:11] [Render thread/INFO] [WaypointStore] Loaded 6 waypoints from C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\sp\New World\waypoints
+[10:05:11] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\sp\New World\overworld. Memory: 8496MB total, 1653MB free 
+[10:05:11] [Render thread/INFO] [ChatLog] 
+[10:05:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for guardvillagers:textures/entity_icon/guard/guard_2.png
+[10:05:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/engineer.png
+[10:05:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seal.png
+[10:06:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seagull.png
+[10:06:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/scribe.png
+[10:06:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/hunter.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/woodworker.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for immersiveengineering:textures/entity_icon/villager/machinist.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for immersiveengineering:textures/entity_icon/villager/outfitter.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/florist.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for mowziesmobs:textures/entity_icon/barakoa_rage.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for mowziesmobs:textures/entity_icon/barakoa_misery.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for mowziesmobs:textures/entity_icon/barakoa_fear.png
+[10:06:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for mowziesmobs:textures/entity_icon/barakoa_fury.png
+[10:06:33] [Render thread/WARN] [JMLogger] turrets:textures/missile.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[10:07:01] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\lasto\curseforge\minecraft\Instances\ElDoradoWorld\journeymap\data\mp\offline\minecraft:overworld
