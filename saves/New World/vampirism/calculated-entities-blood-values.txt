@@ -1,0 +1,12 @@
+#Dynamically calculated blood values - DON'T EDIT
+{
+  "alexsmobs:emu": 15,
+  "humancompanions:archer": 4,
+  "alexsmobs:kangaroo": 15,
+  "alexsmobs:maned_wolf": 7,
+  "alexsmobs:seal": 8,
+  "quark:crab": 2,
+  "iceandfire:hippocampus": 15,
+  "alexsmobs:gazelle": 6,
+  "alexsmobs:bison": 15
+}
