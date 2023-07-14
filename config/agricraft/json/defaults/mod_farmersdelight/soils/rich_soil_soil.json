@@ -1,0 +1,29 @@
+{
+  "path": "mod_farmersdelight/soils/rich_soil_soil.json",
+  "version": "1.18.2",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "farmersdelight",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "rich_soil_soil",
+  "lang_key": " ",
+  "variants": [
+    {
+      "stateDefinition": [],
+      "type": "block",
+      "object": "farmersdelight:rich_soil",
+      "useTag": false,
+      "nbt": "",
+      "ignoredNbt": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "damp",
+  "acidity": "neutral",
+  "nutrients": "very_high",
+  "growth_modifier": 1.8
+}
