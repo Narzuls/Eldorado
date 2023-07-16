@@ -162,6 +162,21 @@
 		# Default: true
 		locked_north: true
 		
+		# Show player heads on minimap
+		# Default: true
+		player_heads: true
+		
+		# Enables minimap to show up in corner
+		# Default: "top_right"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
+		position: "top_right"
+		
+		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
+		# When set to none and the maps offset is greater than 0, the offset will apply to all directions
+		# Default: "none"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right", "none"
+		position_offset_condition: "none"
+		
 		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
 		# Default: 0
 		# Range: -∞ ~ +∞
@@ -172,6 +187,11 @@
 		# Range: -∞ ~ +∞
 		position_offset_y: 0
 		
+		# Scale of minimap
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		scale: 1.0d
+		
 		# Draw a square minimap instead of a circular one
 		# Default: false
 		square: false
@@ -181,8 +201,21 @@
 		# Range: 0 ~ 255
 		visibility: 255
 		
+		# Show waypoints on minimap
+		# Default: true
+		waypoints: true
+		
+		# Show XYZ under minimap
+		# Default: true
+		xyz: true
+		
 		# Show zone (claimed chunk or wilderness) under minimap
 		# Default: true
 		zone: true
+		
+		# Zoom distance of the minimap
+		# Default: 1.0
+		# Range: 1.0 ~ 4.0
+		zoom: 1.0d
 	}
 }
