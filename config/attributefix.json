@@ -231,17 +231,6 @@
         "value": 10000000
       }
     },
-    "vampirism:sundamage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 10000000
-      }
-    },
     "obscure_api:healing_power": {
       "enabled": false,
       "min": {
@@ -396,17 +385,6 @@
         "value": 10000000
       }
     },
-    "vampirism:blood_exhaustion": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10000000
-      }
-    },
     "malum:scythe_proficiency": {
       "enabled": false,
       "min": {
@@ -426,28 +404,6 @@
       },
       "max": {
         "default": 100,
-        "value": 10000000
-      }
-    },
-    "werewolves:bite_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 10000000
-      }
-    },
-    "werewolves:time_regain": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
         "value": 10000000
       }
     },
