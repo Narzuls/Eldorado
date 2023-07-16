@@ -1,0 +1,10 @@
+saves/
+logs/
+screenshots/
+[Jj]ourneymap/*
+local/
+crash-reports/
+schematics/
+usercache.json
+usernamecache.json
+TrashSlotSaveState.json
