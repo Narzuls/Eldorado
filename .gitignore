@@ -1,4 +1,3 @@
-saves/
 logs/
 screenshots/
 [Jj]ourneymap/*
@@ -8,3 +7,17 @@ schematics/
 usercache.json
 usernamecache.json
 TrashSlotSaveState.json
+WailaErrorOutput.txt
+rhino.local.properties
+README.md
+patchouli_data.json
+options.txt
+minecraftinstance.json
+knownkeys.txt
+trees/
+thingpacks/
+tconplanner/
+structurize/
+schematics/
+patchouli_books/
+paintings/
