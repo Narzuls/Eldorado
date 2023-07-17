@@ -3,99 +3,99 @@
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
       },
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "mountain"
       },
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "snowy"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:snowy_slopes"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:frozen_peaks"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:jagged_peaks"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:frozen_cliffs"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:glacial_chasm"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:snowy_badlands"
       },
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:snowy_maple_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:emerald_peaks"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:rocky_mountains"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:scarlet_mountains"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:snowy_shield"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:skylands_winter"
       }
     ]

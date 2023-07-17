@@ -3,19 +3,19 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:ice_spikes"
       }
     ],
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
       },
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "snowy"
       },
       {
@@ -32,14 +32,14 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:snowy_badlands"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:gravel_desert"
       }
     ]
