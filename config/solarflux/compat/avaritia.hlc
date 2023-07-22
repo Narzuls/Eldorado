@@ -1,0 +1,30 @@
+~ Saved With Hammer Lib 18.2.16
+
++C:General={
+  +B:Enabled=true
+
+}
+
+
++C:Solar Panels={
+  +C:Solar Panel neutronium={
+    +L:Capacity=131072000000
+
+    +L:Generation Rate=8388608
+
+    +L:Transfer Rate=32768000
+
+  }
+
+  +C:Solar Panel infinity={
+    +L:Capacity=262144000000
+
+    +L:Generation Rate=16777216
+
+    +L:Transfer Rate=65536000
+
+  }
+
+}
+
+

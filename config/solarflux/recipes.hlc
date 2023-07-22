@@ -13,8 +13,12 @@
   # Enable this recipe? (Default: true)
   +B:solarflux:capacity_upgrade=true
 
+  +B:solarflux:chaotic_panel=true
+
   # Enable this recipe? (Default: true)
   +B:solarflux:dispersive_upgrade=true
+
+  +B:solarflux:draconic_panel=true
 
   # Enable this recipe? (Default: true)
   +B:solarflux:efficiency_upgrade=true
@@ -28,8 +32,12 @@
   # Enable this recipe? (Default: true)
   +B:solarflux:furnace_upgrade=true
 
+  +B:solarflux:infinty_panel=true
+
   # Enable this recipe? (Default: true)
-  +B:solarflux:mirror=true
+  +B:solarflux:mirror=false
+
+  +B:solarflux:neutronium_panel_panel=true
 
   # Enable this recipe? (Default: true)
   +B:solarflux:photovoltaic_cell_1=true
@@ -50,34 +58,36 @@
   +B:solarflux:photovoltaic_cell_6=true
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_1=true
+  +B:solarflux:solar_panel_1=false
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_2=true
+  +B:solarflux:solar_panel_2=false
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_3=true
+  +B:solarflux:solar_panel_3=false
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_4=true
+  +B:solarflux:solar_panel_4=false
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_5=true
+  +B:solarflux:solar_panel_5=false
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_6=true
+  +B:solarflux:solar_panel_6=false
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_7=true
+  +B:solarflux:solar_panel_7=false
 
   # Enable this recipe? (Default: true)
-  +B:solarflux:solar_panel_8=true
+  +B:solarflux:solar_panel_8=false
 
   # Enable this recipe? (Default: true)
   +B:solarflux:transfer_rate_upgrade=true
 
   # Enable this recipe? (Default: true)
   +B:solarflux:traversal_upgrade=true
+
+  +B:solarflux:wyvern_panel=true
 
 }
 

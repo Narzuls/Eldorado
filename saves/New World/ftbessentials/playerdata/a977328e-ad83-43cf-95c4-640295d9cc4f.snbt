@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "JaziMalyBoy"
+	last_seen: { dim: "minecraft:overworld", x: -360, y: 106, z: 430, time: 1690043390057L, xRot: 35.099976f, yRot: -86.24512f }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}
