@@ -4,12 +4,12 @@
     [
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_overworld"
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_hot"
       },
       {
@@ -31,12 +31,12 @@
     [
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_overworld"
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_plains"
       },
       {
@@ -73,63 +73,63 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:volcanic_crater"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:volcanic_peaks"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:steppe"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "byg:rose_fields"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "byg:prairie"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "byg:firecracker_shrubland"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "byg:autumnal_valley"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "byg:lush_stacks"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:cave/thermal_caves"
       }
     ]

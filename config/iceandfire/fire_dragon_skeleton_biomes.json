@@ -9,12 +9,12 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_hot/overworld"
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_sandy"
       },
       {
@@ -25,50 +25,50 @@
     ],
     [
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "terralith:desert_canyon"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "terralith:desert_oasis"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "terralith:desert_spires"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "terralith:ancient_sands"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "byg:mojave_desert"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "byg:atacama_desert"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "byg:windswept_valley"
       }
     ]
