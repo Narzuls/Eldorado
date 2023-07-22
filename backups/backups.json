@@ -1,0 +1,17 @@
+{
+  "backups": [
+    {
+      "worldName": "New World",
+      "createTime": 1690048800267,
+      "backupLocation": "C:\\Users\\tomy_\\curseforge\\minecraft\\Instances\\ElDoradoAdventure\\backups\\2023-7-22_14-0-0.zip",
+      "size": 0,
+      "ratio": 0.6877854,
+      "sha1": "f2304c40d53f56f547ea7a0ab5ae033a13852479",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    }
+  ]
+}
