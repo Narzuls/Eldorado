@@ -4,12 +4,12 @@
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
       },
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "snowy"
       },
       {
@@ -21,12 +21,12 @@
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
       },
       {
         "type": "BIOME_CATEGORY",
-        "negate": false,
+        "negate": true,
         "value": "icy"
       },
       {
@@ -38,14 +38,14 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:wintry_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "terralith:wintry_lowlands"
       }
     ]
