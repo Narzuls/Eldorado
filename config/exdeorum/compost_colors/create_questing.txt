@@ -1,0 +1,2 @@
+// Compost colors for create_questing. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blueprint, #e0f8ff

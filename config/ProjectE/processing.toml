@@ -9,14 +9,24 @@
 	[processors.DamageProcessor]
 		enabled = true
 
+	#Increases the EMC value of the item to take into account any EMC the item has stored.
+	[processors.StoredEMCProcessor]
+		enabled = true
+
 	#Increases the EMC value to take into account any enchantments on an item.
 	[processors.EnchantmentProcessor]
 		enabled = false
 		persistent = false
 
-	#Increases the EMC value of the item to take into account any EMC the item has stored.
-	[processors.StoredEMCProcessor]
+	#Takes the different sherds into account for each decorated pot.
+	[processors.DecoratedPotProcessor]
 		enabled = true
+		persistent = true
+
+	#Calculates EMC value of trimmed armor.
+	[processors.ArmorTrimProcessor]
+		enabled = true
+		persistent = true
 
 	#Increases the EMC value of any Mekanism items by the value of the stored or installed contents.
 	[processors.MekanismContentsProcessor]

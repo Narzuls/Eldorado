@@ -3,8 +3,6 @@
 [player_death]
 	#Whether to unlock access to a grave if the player has been killed by another player [false/true|default:true]
 	pvp_unlock_grave = true
-	#Whether to handle player death [false/true|default:true]
-	handle_player_death = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
 	restore_effects_on_death = false
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
@@ -19,12 +17,6 @@
 	allow_to_fill_existing_grave = true
 	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
 	nerf_ghostly_shape_teleport_with_key = true
-	#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
-	nerf_ghostly_shape_enemy_collision = true
-	#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
-	nerf_ghostly_shape_open_chest = true
-	#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
-	nerf_ghostly_shape_break_block = true
 	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
 	#Range: 1 ~ 10
 	sniffer_range = 5
@@ -34,41 +26,47 @@
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
-	#Knowledge of Death loss on death [0..500|default:0]
-	#Range: 0 ~ 500
-	knowledge_loss = 0
 	#The chance that some items are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_loss_on_death = 0
 	#The percentage of items that are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
-	#Graveless Areas
-	no_grave_location = ["0, -300, 0, minecraft:overworld, 20"]
+	#Graveless Dimensions
+	no_grave_dimension = []
 
 #Options related to player's alignment
 [alignment]
-	#Points for freeing a soul in a receptacle [0..50|default:10]
-	#Range: 0 ~ 50
-	points_free_soul_receptacle = 10
-	#Points for plundering a player's grave [-50..0|default:-2]
-	#Range: -50 ~ 0
-	points_plunder_player_grave = -2
-	#Points for zombie villager exorcism [0..50|default:3]
-	#Range: 0 ~ 50
-	points_exorcism_zombie_villager = 3
-	#Points for killing a villager [-50..0|default:-3]
-	#Range: -50 ~ 0
-	points_kill_villager = -3
-	#Points for killing a raider [0..20|default:1]
-	#Range: 0 ~ 20
-	points_kill_raider = 1
-	#Points for tablet of cupidity [-20..0|default:-2]
-	#Range: -20 ~ 0
-	points_tablet_of_cupidity = -2
-	#Points for Pray of Protection [0..50|default:2]
-	#Range: 0 ~ 50
-	points_pray_of_protection = 2
+	#Points for freeing a soul in a receptacle [0..500|default:50]
+	#Range: 0 ~ 500
+	points_free_soul_receptacle = 50
+	#Points for plundering a player's grave [-500..0|default:-10]
+	#Range: -500 ~ 0
+	points_plunder_player_grave = -10
+	#Points for zombie villager exorcism [0..500|default:20]
+	#Range: 0 ~ 500
+	points_exorcism_zombie_villager = 20
+	#Points for zombifying a villager [-500..0|default:-20]
+	#Range: -500 ~ 0
+	points_zombify_villager = -20
+	#Points for killing some entities decreasing alignment [-500..0|default:-10]
+	#Range: -500 ~ 0
+	points_kill_decreasing_alignment = -10
+	#Points for killing some entities increasing alignment [0..500|default:10]
+	#Range: 0 ~ 500
+	points_kill_increasing_alignment = 10
+	#Points for tablet of cupidity [-500..0|default:-10]
+	#Range: -500 ~ 0
+	points_tablet_of_cupidity = -10
+	#Points for Pray of Protection [0..500|default:20]
+	#Range: 0 ~ 500
+	points_pray_of_protection = 20
+	#Points for using a Potion of Earthly Garden [0..500|default:10]
+	#Range: 0 ~ 500
+	points_earthly_garden = 10
+	#Points for killing one of your tamed creatures [-500..0|default:-10]
+	#Range: -500 ~ 0
+	points_kill_tamed_creature = -10
 
 #Miscellaneous options
 [general]
@@ -76,8 +74,6 @@
 	teleport_dim = true
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
-	#Allows players to be hurt by special damages related to some items [false/true|default:true]
-	allow_beyond_the_grave_damage = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
 	#Range: > 1200
 	time_for_phantom_spawn = 72000
@@ -87,13 +83,13 @@
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_death = -1
-	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
-	#Range: -1 ~ 1440
-	cooldown_teleport_bind = -1
-	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
+	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
+	#Allows to limit the damages done by Decrepitude
+	#Range: > 1
+	decrepitude_max_damage = 2147483647
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
@@ -135,6 +131,8 @@
 	lost_tablet_modded_structure = true
 	#The structures that can't be discovered by lost tablets
 	lost_tablet_denied_structures = []
+	#The worlds that can't be discovered by lost tablets
+	lost_tablet_denied_worlds = []
 	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
 	#Range: 5 ~ 60000
 	duration_voodoo_poppet_effects = 60
@@ -157,25 +155,6 @@
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_soul = 100
-	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
-	#Range: 0 ~ 100
-	chance_pray_reward = 40
-
-#Allows to customize or disable the enchantments
-[enchantments]
-	#Shadow Step is disabled for 10 seconds by opening a chest [false/true|default:true]
-	nerf_shadow_step_open_chest = true
-	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
-	nerf_plague_bringer = true
-	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
-	#Range: > 1
-	max_duration_magic_siphon = 60
-	#Duration of applied effects in seconds [1..MAX|default:10]
-	#Range: > 1
-	duration_plague_bringer = 10
-	#Defines if players can steal effects to others players. If nerfed, the stolen effect duration is limited to 10% of the initial effect [ALLOW/NERFED/DISALLOW|default:ALLOW]
-	#Allowed Values: ALLOW, NERFED, DISALLOW
-	magic_siphon_on_player_rule = "ALLOW"
 
 #Options related to the command recovery and auto-save of players
 [recovery]
@@ -194,14 +173,13 @@
 
 #Options related to looted items
 [loot]
-	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
-	#Range: > 200
-	undead_boss_life_for_drop = 200
-	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [1..200000|default:2000]
-	#Range: 1 ~ 200000
+	#Maximum xp rewarded with a Lost Page of Erdös [100..200000|default:2000]
+	#Range: 100 ~ 200000
 	max_xp_lost_page = 2000
-	#Entities that can't found as loot in a Familiar Receptacle
-	unhandled_tameable_entities = []
+	#Denied mods for equipment drops
+	denied_modid_for_equipment = ["tombstone"]
+	#Only vanilla drops for equipment [false/true|default:false]
+	only_vanilla_for_equipment = false
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -215,4 +193,18 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+
+#Allows to enable special events
+[special_events]
+	#Allows Halloween [false/true|default:true]
+	allow_halloween = true
+	#Allows Christmas [false/true|default:true]
+	allow_christmas = true
+	#Allows April Fools [false/true|default:true]
+	allow_april_fools = true
+	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/SPRING_BLOOM|default:NONE]
+	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, SPRING_BLOOM
+	force_special_event = "NONE"
+	#Allows Spring Bloom [false/true|default:true]
+	allow_spring_bloom = true
 

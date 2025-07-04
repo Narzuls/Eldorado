@@ -2,58 +2,55 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "swamp"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "river"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "cold"
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_swamp"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:mangrove_swamp"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "minecraft:is_river"
+      },
+      {
+        "type": "BIOME_TAG",
         "negate": true,
+        "value": "forge:is_cold"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "biomesoplenty:tropic_beach"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:orchid_swamp"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:red_oasis"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:warm_river"
       }
     ]

@@ -2,21 +2,23 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "beach"
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "minecraft:is_beach"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:gravel_beach"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:stony_shore"
       }
     ]
   ]

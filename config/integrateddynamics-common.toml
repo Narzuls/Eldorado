@@ -6,6 +6,20 @@
 		ingredientNetworkObserverFrequencyDecreaseFactor = 5
 		#If network change events should be logged. Only enable this when debugging.
 		logChangeEvents = false
+		#When true, use the LONG number format style. Otherwise, use the SHORT style.
+		numberCompactUseLongStyle = false
+		#The minimum number of integer digits to include in the result of the compact operator
+		numberCompactMinimumIntegerDigits = 1
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = true
+		#The minimum number of fractional digits to include in the result of the compact operator
+		numberCompactMinimumFractionDigits = 0
+		#The number of threads that the ingredient network observer can use.
+		ingredientNetworkObserverThreads = 4
+		#The frequency in ticks at which ingredient network should be observed after a position's contents are changed.
+		ingredientNetworkObserverFrequencyForced = 0
+		#The maximum number of integer digits to include in the result of the compact operator
+		numberCompactMaximumIntegerDigits = 3
 		#The ingredient network observation frequency slowdown rate in ticks.
 		ingredientNetworkObserverFrequencyIncreaseFactor = 1
 		#The fastest possible frequency in ticks at which ingredient network should be observed.
@@ -14,24 +28,20 @@
 		cacheCableModels = true
 		#If corrupted networks should automatically be restored on first tick.
 		recreateCorruptedNetworks = true
+		#The maximum number of fractional digits to include in the result of the compact operator
+		numberCompactMaximumFractionDigits = 2
 		#The slowest possible frequency in ticks at which ingredient network should be observed.
 		ingredientNetworkObserverFrequencyMax = 40
-		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = true
 		#If the ingredient network observer can work on separate thread.
 		ingredientNetworkObserverEnableMultithreading = true
 		#When enabled, networks will stop ticking and values will not be shown and evaluated again. This can be used to fix crashing networks by temporarily enabling this option.
 		safeMode = false
-		#The maximum frequency at which speach messages can be played in millis.
+		#The maximum frequency at which speach messages can be played in milliseconds.
 		speachMaxFrequency = 1000
 		#The maximum network energy transfer rate.
 		energyRateLimit = 2147483647
 		#How deep the recursion stack on an operator can become. This is to avoid game crashes when building things like the omega operator.
 		operatorRecursionLimit = 256
-		#The number of threads that the ingredient network observer can use.
-		ingredientNetworkObserverThreads = 4
-		#The frequency in ticks at which ingredient network should be observed after a position's contents are changed.
-		ingredientNetworkObserverFrequencyForced = 0
 		#If the version checker should be enabled.
 		versionChecker = true
 
@@ -40,18 +50,32 @@
 	[general.general]
 		#The energy usage multiplier for networks.
 		energyConsumptionMultiplier = 0
-		#The base energy usage for the omni-directional connector.
-		connectorOmniDirectionalBaseConsumption = 128
-		#The base energy usage for the extra-dimensional reader.
-		extraDimensionalReaderBaseConsumption = 1
 		#The base energy usage for the fluid reader.
 		fluidReaderBaseConsumption = 1
-		#The base energy usage for the machine writer.
-		machineWriterBaseConsumption = 1
 		#The base energy usage for the display panel when it has a variable.
 		panelDisplayBaseConsumptionEnabled = 2
 		#The base energy usage for the audio writer.
 		audioWriterBaseConsumption = 1
+		#The base energy usage for the inventory reader.
+		inventoryReaderBaseConsumption = 1
+		#The base energy usage for the dynamic light panel.
+		panelLightDynamicBaseConsumption = 0
+		#The base energy usage for the entity reader.
+		entityReaderBaseConsumption = 1
+		#The base energy usage for the static light panel.
+		panelLightStaticBaseConsumption = 0
+		#The base energy usage for the inventory writer.
+		inventoryWriterBaseConsumption = 1
+		#The base energy usage for the network reader.
+		networkReaderBaseConsumption = 1
+		#The base energy usage for the entity writer.
+		entityWriterBaseConsumption = 1
+		#The base energy usage for the omni-directional connector.
+		connectorOmniDirectionalBaseConsumption = 128
+		#The base energy usage for the extra-dimensional reader.
+		extraDimensionalReaderBaseConsumption = 1
+		#The base energy usage for the machine writer.
+		machineWriterBaseConsumption = 1
 		#The base energy usage for the proxy.
 		proxyBaseConsumption = 2
 		#The maximum render distance for part overlays to render. The higher, the more resource intensive.
@@ -62,50 +86,42 @@
 		redstoneReaderBaseConsumption = 1
 		#The base energy usage for the materializer.
 		materializerBaseConsumption = 1
-		#The base energy usage for the inventory reader.
-		inventoryReaderBaseConsumption = 1
 		#The base energy usage for the world reader.
 		worldReaderBaseConsumption = 1
 		#The base energy usage for the display panel when does not have a variable.
 		panelDisplayBaseConsumptionDisabled = 1
 		#The base energy usage for the redstone writer.
 		redstoneWriterBaseConsumption = 1
-		#The base energy usage for the dynamic light panel.
-		panelLightDynamicBaseConsumption = 0
 		#The base energy usage for the variable store.
 		variablestoreBaseConsumption = 4
 		#The base energy usage for the effect writer.
 		effectWriterBaseConsumption = 1
-		#The base energy usage for the entity reader.
-		entityReaderBaseConsumption = 1
-		#The base energy usage for the static light panel.
-		panelLightStaticBaseConsumption = 0
-		#The base energy usage for the inventory writer.
-		inventoryWriterBaseConsumption = 1
 		#The base energy usage for the mono-directional connector.
 		connectorMonoDirectionalBaseConsumption = 32
 		#The base energy usage for the block reader.
 		blockReaderBaseConsumption = 1
 		#The default port for running the network diagnostics HTTP server.
 		diagnosticsWebServerPort = 3030
-		#The base energy usage for the network reader.
-		networkReaderBaseConsumption = 1
 		#The base energy usage for the machine reader.
 		machineReaderBaseConsumption = 1
-		#The base energy usage for the entity writer.
-		entityWriterBaseConsumption = 1
 
 [machine]
 
 	[machine.general]
-		#The maximum offset in blocks a directional connector can look for its target.
-		maxDirectionalConnectorOffset = 512
+		#The maximum offset in blocks a part can target.
+		maxPartOffset = 32
+		#The maximum values that Part Offset items will have when dropped from a broken part.
+		enchancementOffsetPartDropValue = 4
 		#Priority list of mod id's when determining tag-based recipe outputs.
 		recipeTagOutputModPriorities = []
 		#The default update frequency in ticks to use for new parts.
 		defaultPartUpdateFreq = 1
 		#The NBT tags that are not allowed to be read by displaying NBT tags or performing operations on them.
 		nbtTagBlacklist = []
+		#The maximum offset in blocks a directional connector can look for its target.
+		maxDirectionalConnectorOffset = 512
+		#The distance from which part offsets should be shown.
+		partOffsetRenderDistance = 16
 
 	[machine.cable]
 		#If cable shapes should be determined dynamically. Disable this if FPS issues would occur.
@@ -151,10 +167,6 @@
 		#The 1/x chance at which Menril Wood will be filled with Menril Resin when generated, the higher this value, the lower the chance.
 		filledMenrilLogChance = 10
 
-	[worldgeneration.meneglin]
-		#The chance at which a Menril Tree will spawn in the wild, the higher this value, the lower the chance.
-		wildMenrilTreeChance = 100
-
 [item]
 
 	[item.menril_berries]
@@ -166,10 +178,4 @@
 		obtainOnSpawn = true
 		#If the info book can give item rewards for tutorial completion.
 		bookRewards = true
-
-[biome]
-
-	[biome.meneglin]
-		#The weight of spawning in the overworld, 0 disables spawning.
-		spawnWeight = 5
 

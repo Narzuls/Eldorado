@@ -2,41 +2,32 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "overworld"
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "minecraft:is_overworld"
       },
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_swamp"
+      },
+      {
+        "type": "REGISTRY_NAME",
         "negate": true,
-        "value": "swamp"
+        "value": "minecraft:mangrove_swamp"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "biomesoplenty:tundra_bog"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "terralith:ice_marsh"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:orchid_swamp"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:red_oasis"
       }
     ]

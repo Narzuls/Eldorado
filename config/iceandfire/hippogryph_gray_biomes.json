@@ -1,34 +1,23 @@
 {
-  "citadel_format": 0,
   "biomes": [
     [
       {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "forge:is_overworld"
-      },
-      {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:windswept_forest"
       }
     ],
     [
       {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "forge:is_overworld"
-      },
-      {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:windswept_hills"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:windswept_spires"
       }
     ]

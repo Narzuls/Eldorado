@@ -1,0 +1,16 @@
+// Compost colors for archers_paradox. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blaze_arrow, #ffffff
+challenge_arrow, #ffffff
+diamond_arrow, #90c0a5
+ender_arrow, #659179
+explosive_arrow, #f1cac2
+frost_arrow, #d2e7ff
+lightning_arrow, #cfe1dd
+phantasmal_arrow, #b4d9d4
+prismarine_arrow, #94bca4
+quartz_arrow, #e0cfb8
+shulker_arrow, #eeddbe
+slime_arrow, #a0bc82
+spore_arrow, #f16c6b
+training_arrow, #fae4c9
+verdant_arrow, #ca7354

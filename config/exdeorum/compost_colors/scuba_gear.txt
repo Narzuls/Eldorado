@@ -1,0 +1,5 @@
+// Compost colors for scuba_gear. You may add your own colors, change existing ones, or remove colors that aren't needed.
+scuba_boots, #bc9a37
+scuba_chestplate, #c59332
+scuba_helmet, #b88c30
+scuba_leggings, #55652d

@@ -1,0 +1,25 @@
+// Compost colors for aquamirae_delight. You may add your own colors, change existing ones, or remove colors that aren't needed.
+abyssal_risotto, #ddaaaf
+angled_kebab, #a2aea1
+anglers_soup, #6c482c
+aquatic_feast, #839679
+cooked_spinefish_slice, #b6af97
+deepsea_pie, #fbb569
+deepsea_pie_slice, #f0a75f
+esca_gelium_soup, #5a7c64
+fin_filleter, #94d0e3
+fishermans_delicacy, #b4902d
+fishermans_delicacy_slice, #a78d2f
+glazed_grilled_spinefish, #cfb26b
+golden_puree, #ffdd90
+golden_puree_pasta, #f2912a
+ground_wisteria, #28697f
+oxygeliumbulbs, #ccffff
+remnants_knife, #faf0cd
+seperator, #ee75f4
+spinefish_alfredo, #e6d390
+spinefish_kelp_roll, #525f4a
+spinefish_kelp_roll_slice, #7d876e
+spinefish_slice, #72c3cf
+spinefishroll, #8ec0c3
+wisteria_leaves, #62aa86
