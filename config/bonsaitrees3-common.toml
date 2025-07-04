@@ -1,11 +1,15 @@
-#Enable fortune upgrades? (Can still be inserted into upgrade slots, but effects are disabled.)
+#Enable fortune upgrades?
 enableFortuneUpgrade = true
-#Enable efficiency upgrades? (Can still be inserted into upgrade slots, but effects are disabled.)
+#Enable efficiency upgrades?
 enableEfficiencyUpgrade = true
-#Enable hopping upgrade? (Can still be inserted into upgrade slots, but effects are disabled.)
+#Enable hopping upgrade?
 enableHoppingUpgrade = true
-#Enable auto cutting upgrades? (Can still be inserted into upgrade slots, but effects are disabled.)
+#Enable auto cutting upgrades?
 enableAutoCuttingUpgrade = true
+#Enable forge energy upgrades?
+enableForgeEnergyUpgrade = true
+#Enable pollinating upgrades?
+enablePollinatingUpgrade = true
 #Auto-cutting does damage to the used axe upgrade
 autoCuttingDamagesItems = false
 #How likely is it that the axe upgrade takes damage for each tree it cuts?
@@ -32,4 +36,16 @@ hoppingCooldown = 60
 #How many ticks to wait before trying to cut the tree automatically after failing to do so?
 #Range: 20 ~ 1200
 cuttingCooldown = 60
+#Minimum amount of ticks for a bonsai to fully grow
+#Range: > 1
+minimumRequiredTicks = 10
+#Can be changed to affect the growth time of all trees by a multiplier
+#Range: 0.0 ~ 2.147483647E9
+requiredTicksModifier = 1.0
+#Maximum extracted Forge Energy from upgrade items per tick
+#Range: > 0
+maximumExtractedEnergyPerTick = 60
+#How much faster a tree grows per extracted Forge Energy. (Example: 1.0 + 60fe/t * 0.005 = 1.3x faster)
+#Range: 0.0 ~ 1.7976931348623157E308
+extraGrowthRatioPerFE = 0.005
 

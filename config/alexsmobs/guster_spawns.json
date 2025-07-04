@@ -2,58 +2,58 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_TAG",
         "negate": true,
-        "value": "overworld"
+        "value": "forge:no_default_monsters"
       },
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "hot"
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_hot/overworld"
       },
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "dry"
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_dry/overworld"
       },
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "sandy"
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_sandy"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:ancient_sands"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:desert_canyon"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:desert_spires"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:ashen_savanna"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:cave/desert_caves"
       }
     ]

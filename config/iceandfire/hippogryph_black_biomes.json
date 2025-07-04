@@ -1,22 +1,16 @@
 {
-  "citadel_format": 0,
   "biomes": [
     [
       {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "forge:is_overworld"
-      },
-      {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:badlands"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:painted_mountains"
       }
     ]

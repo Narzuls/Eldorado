@@ -1,0 +1,5 @@
+// Compost colors for raccompat. You may add your own colors, change existing ones, or remove colors that aren't needed.
+acid_walker, #739437
+desolate_pendant, #87393e
+polar_boot, #86474a
+vine_ring, #5f7a20

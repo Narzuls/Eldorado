@@ -8,7 +8,7 @@
 		#Range: 0.5 ~ 100.0
 		fuelUsageMultiplier = 1.0
 		#A multiplier for balancing overall power production from Extreme Reactors generators.
-		#Range: 0.5 ~ 100.0
+		#Range: 0.005 ~ 100.0
 		powerProductionMultiplier = 1.0
 		#Number of ticks between updates for the Redstone Port.
 		#Range: 10 ~ 100
@@ -26,11 +26,8 @@
 		#Range: 3 ~ 256
 		maxReactorSize = 32
 		#A multiplier for balancing Reactor power production. Stacks with powerProductionMultiplier.
-		#Range: 0.5 ~ 100.0
+		#Range: 0.005 ~ 100.0
 		reactorPowerProductionMultiplier = 1.0
-		#How much light (0-15) does a Fuel Rod emits.
-		#Range: 0 ~ 15
-		fuelRodLightValue = 15
 
 	#Define how Turbines works
 	[common.turbine]
@@ -59,7 +56,7 @@
 		turbineMassDragMultiplier = 1.0
 		#A multiplier for balancing turbine power production.
 		#Stacks with powerProductionMultiplier.
-		#Range: 0.5 ~ 10.0
+		#Range: 0.005 ~ 100.0
 		turbinePowerProductionMultiplier = 1.0
 
 	#Define how Fluidizer works
@@ -76,17 +73,16 @@
 		#Range: 20 ~ 1000
 		energyPerRecipeTick = 25
 
-	#Recipes options
-	[common.recipes]
-		#If set, charcoal will be smeltable into graphite bars.
-		#Disable this if other mods need to smelt charcoal into their own products.
-		registerCharcoalForSmelting = true
-		#If set, coal will be smeltable into graphite bars.
-		#Disable this if other mods need to smelt coal into their own products.
-		registerCoalForSmelting = true
-		#If set, coal blocks will be smeltable into graphite blocks.
-		#Disable this if other mods need to smelt coal blocks into their own products.
-		registerCoalBlockForSmelting = true
+	#Define how Energizer works
+	[common.energizer]
+		#The maximum valid size of a Energizer in the Y dimension, in blocks.
+		#Lower this if your server's players are building ginormous Energizer.
+		#Range: 3 ~ 32
+		maxEnergizerHeight = 32
+		#The maximum valid size of a Energizer in the X/Z plane, in blocks.
+		#Lower this if your server's players are building ginormous Energizer.
+		#Range: 3 ~ 32
+		maxEnergizerSize = 32
 
 	#Define how ores generates in the world
 	[common.worldgen]

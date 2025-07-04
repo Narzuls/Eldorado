@@ -1,0 +1,2 @@
+// Compost colors for immersiveindustry. You may add your own colors, change existing ones, or remove colors that aren't needed.
+refractory_kiln_brick, #f1eee6

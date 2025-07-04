@@ -5,5 +5,7 @@
 	"hudArrowColor": 5540067,
 	"hudBackgroundOpacity": 75,
 	"showWhenFull": true,
-	"showHUDInCreative": false
+	"showHUDInCreative": false,
+	"showKeybinding": true,
+	"keybindingLabelPosition": "LEFT"
 }

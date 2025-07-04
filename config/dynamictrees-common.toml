@@ -12,13 +12,8 @@
 [misc]
 	#If enabled, dirt bucket recipes will be automatically generated.
 	generateDirtBucketRecipes = true
-
-#World Generation Settings
-[world]
-	#World Generation produces Dynamic Trees instead of Vanilla trees.
-	worldGen = true
-	#Blacklist of dimension registry names for disabling Dynamic Tree worldgen
-	dimensionsBlacklist = []
+	#The base potion the Biochar Base is brewed from. Minecraft potions use 'awkward'. If you change this, don't forget to update the patchouli manual page too.
+	biocharBrewingBase = "thick"
 
 #Mod Integration Settings
 [integration]

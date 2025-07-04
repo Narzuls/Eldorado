@@ -6,4 +6,8 @@
 	renderBeesInJars = true
 	#Stop bee nest helmets from making sounds.
 	mutedBeeNestHelmet = false
+	#Bees wear santa hats.
+	alwaysChristmas = false
+	#Render entities inside amber blocks.
+	renderEntitiesInAmber = true
 

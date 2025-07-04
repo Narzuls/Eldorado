@@ -2,63 +2,65 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "overworld"
-      },
-      {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "minecraft:bamboo_jungle"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "biomesoplenty:bamboo_grove"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "biomesoplenty:cherry_blossom_grove"
+        "negate": false,
+        "value": "minecraft:cherry_grove"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:sakura_grove"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:sakura_valley"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:amethyst_canyon"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:amethyst_rainforest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "terralith:skylands_spring"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:snowblossom_grove"
       }
     ]
   ]

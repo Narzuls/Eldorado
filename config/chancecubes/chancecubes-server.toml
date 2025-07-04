@@ -1,5 +1,6 @@
 
 ["General Settings"]
+	#Set to false to disable a specific reward
 	#The minimum chance range value. Changes the range of chance that the chance block can pick from. i.e. If you have your rangemin set to 10 and range max set to 15. A chance cube with a chance value of 0 can get rewards of -10 to 15 in chance value.
 	#Range: 0 ~ 100
 	ChanceRangeMin = 10
@@ -19,9 +20,6 @@
 	PendantUses = 32
 	#True if Chance Cubes should generate like ores with in the world. false if they should not
 	GenerateAsOre = true
-	#Amount of chance cubes to try and spawn, per chunk, as an ore
-	#Range: 1 ~ 100
-	OreGenAmount = 4
 	#true if Chance Cubes should generate on the surface of the world. false if they should not
 	GenerateOnSurface = true
 	#Chance of a chunk to have a chance cube spawned on the surface. The math is 1/(surfaceGenerationAmount), so increase to make more rare, and decrease to make more common.

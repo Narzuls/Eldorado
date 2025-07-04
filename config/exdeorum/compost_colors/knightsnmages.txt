@@ -1,0 +1,26 @@
+// Compost colors for knightsnmages. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blank_elite_thread, #e06f57
+blue_knight_boots, #dddde7
+blue_knight_chestplate, #f0f0fa
+blue_knight_helmet, #d3dafb
+blue_knight_leggings, #e0edff
+citrin_gem, #ffda61
+dark_knight_boots, #373739
+dark_knight_chestplate, #503d47
+dark_knight_helmet, #878789
+dark_knight_leggings, #47343e
+elite_mage_boots, #c5b9bc
+elite_mage_chestplate, #e6acb1
+elite_mage_helmet, #ffa7c6
+elite_mage_leggings, #dc8978
+elite_magebloom, #da5c96
+elite_magebloom_fiber, #ff68a8
+elite_magebloom_seed, #d0729d
+elite_source_gem, #ff699e
+moonlight_gem, #62a2e4
+noble_magebloom, #6b86d7
+noble_magebloom_fiber, #9194fb
+noble_magebloom_seed, #76a1ee
+noble_source_gem, #9aacff
+scarlet_gem, #ff4366
+thread_noble, #f2a086

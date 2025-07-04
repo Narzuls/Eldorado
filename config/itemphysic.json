@@ -1,23 +1,23 @@
 {
   "general": {
-    "despawnItem": 6000,
-    "customThrow": true,
     "fallSounds": true,
+    "disableCactusDamage": true,
     "swimmingItems": {
       "entries": [
-        "{id:\"material\",material:\"minecraft:oak_planks\"}",
-        "{id:\"material\",material:\"minecraft:white_bed\"}",
-        "{id:\"material\",material:\"minecraft:sponge\"}",
-        "{id:\"material\",material:\"minecraft:packed_ice\"}",
-        "{id:\"material\",material:\"minecraft:ice\"}",
-        "{id:\"material\",material:\"minecraft:oak_leaves\"}",
-        "{id:\"material\",material:\"minecraft:oak_sapling\"}",
-        "{id:\"material\",material:\"minecraft:white_carpet\"}",
-        "{id:\"material\",material:\"minecraft:snow_block\"}",
-        "{id:\"material\",material:\"minecraft:cactus\"}",
-        "{id:\"material\",material:\"minecraft:cake\"}",
-        "{id:\"material\",material:\"minecraft:grass\"}",
-        "{id:\"material\",material:\"minecraft:cobweb\"}",
+        "{id:\"blocktag\",tag:\"minecraft:mineable/axe\"}",
+        "{id:\"blocktag\",tag:\"minecraft:logs\"}",
+        "{id:\"blocktag\",tag:\"minecraft:planks\"}",
+        "{block:\"minecraft:sponge\",id:\"block\"}",
+        "{block:\"minecraft:wet_sponge\",id:\"block\"}",
+        "{id:\"blocktag\",tag:\"minecraft:ice\"}",
+        "{id:\"blocktag\",tag:\"minecraft:leaves\"}",
+        "{id:\"blocktag\",tag:\"minecraft:flowers\"}",
+        "{id:\"blocktag\",tag:\"minecraft:small_flowers\"}",
+        "{id:\"blocktag\",tag:\"minecraft:tall_flowers\"}",
+        "{id:\"blocktag\",tag:\"minecraft:snow\"}",
+        "{block:\"minecraft:cactus\",id:\"block\"}",
+        "{block:\"minecraft:cake\",id:\"block\"}",
+        "{block:\"minecraft:cobweb\",id:\"block\"}",
         "{block:\"minecraft:snow\",id:\"block\"}",
         "{id:\"item\",item:\"minecraft:apple\"}",
         "{id:\"item\",item:\"minecraft:bow\"}",
@@ -53,7 +53,7 @@
         "{block:\"minecraft:potatoes\",id:\"block\"}",
         "{id:\"item\",item:\"minecraft:poisonous_potato\"}",
         "{id:\"item\",item:\"minecraft:baked_potato\"}",
-        "{id:\"item\",item:\"minecraft:pumpkin_pie\"}",
+        "{block:\"create_central_kitchen:pumpkin_pie\",id:\"block\"}",
         "{id:\"item\",item:\"minecraft:elytra\"}",
         "{id:\"item\",item:\"minecraft:mutton\"}",
         "{id:\"item\",item:\"minecraft:cooked_mutton\"}",
@@ -73,20 +73,22 @@
     },
     "burningItems": {
       "entries": [
-        "{id:\"material\",material:\"minecraft:oak_planks\"}",
-        "{id:\"material\",material:\"minecraft:white_bed\"}",
-        "{id:\"material\",material:\"minecraft:sponge\"}",
-        "{id:\"material\",material:\"minecraft:packed_ice\"}",
-        "{id:\"material\",material:\"minecraft:ice\"}",
-        "{id:\"material\",material:\"minecraft:oak_leaves\"}",
-        "{id:\"material\",material:\"minecraft:oak_sapling\"}",
-        "{id:\"material\",material:\"minecraft:white_carpet\"}",
-        "{id:\"material\",material:\"minecraft:snow_block\"}",
-        "{id:\"material\",material:\"minecraft:cactus\"}",
-        "{id:\"material\",material:\"minecraft:cake\"}",
-        "{id:\"material\",material:\"minecraft:grass\"}",
-        "{id:\"material\",material:\"minecraft:cobweb\"}",
-        "{id:\"material\",material:\"minecraft:dirt\"}",
+        "{id:\"blocktag\",tag:\"minecraft:mineable/axe\"}",
+        "{id:\"blocktag\",tag:\"minecraft:logs_that_burn\"}",
+        "{id:\"blocktag\",tag:\"minecraft:planks\"}",
+        "{block:\"minecraft:sponge\",id:\"block\"}",
+        "{block:\"minecraft:wet_sponge\",id:\"block\"}",
+        "{id:\"blocktag\",tag:\"minecraft:ice\"}",
+        "{id:\"blocktag\",tag:\"minecraft:leaves\"}",
+        "{id:\"blocktag\",tag:\"minecraft:wool\"}",
+        "{id:\"blocktag\",tag:\"minecraft:wool_carpets\"}",
+        "{id:\"blocktag\",tag:\"minecraft:flowers\"}",
+        "{id:\"blocktag\",tag:\"minecraft:small_flowers\"}",
+        "{id:\"blocktag\",tag:\"minecraft:tall_flowers\"}",
+        "{id:\"blocktag\",tag:\"minecraft:snow\"}",
+        "{block:\"minecraft:cactus\",id:\"block\"}",
+        "{block:\"minecraft:cake\",id:\"block\"}",
+        "{block:\"minecraft:cobweb\",id:\"block\"}",
         "{block:\"minecraft:snow\",id:\"block\"}",
         "{id:\"item\",item:\"minecraft:apple\"}",
         "{id:\"item\",item:\"minecraft:bow\"}",
@@ -133,7 +135,8 @@
         "{id:\"item\",item:\"minecraft:poisonous_potato\"}",
         "{id:\"item\",item:\"minecraft:baked_potato\"}",
         "{id:\"item\",item:\"minecraft:map\"}",
-        "{id:\"item\",item:\"minecraft:pumpkin_pie\"}",
+        "{id:\"item\",item:\"minecraft:filled_map\"}",
+        "{block:\"create_central_kitchen:pumpkin_pie\",id:\"block\"}",
         "{id:\"item\",item:\"minecraft:name_tag\"}",
         "{id:\"item\",item:\"minecraft:enchanted_book\"}",
         "{id:\"item\",item:\"minecraft:elytra\"}",
@@ -161,7 +164,7 @@
         "{id:\"item\",item:\"minecraft:nether_star\"}",
         "{block:\"minecraft:bedrock\",id:\"block\"}",
         "{block:\"minecraft:obsidian\",id:\"block\"}",
-        "{id:\"material\",material:\"minecraft:barrier\"}"
+        "{block:\"minecraft:barrier\",id:\"block\"}"
       ],
       "isWhitelist": true
     }
@@ -169,6 +172,18 @@
   "pickup": {
     "customPickup": false,
     "pickupWhenSneaking": true,
-    "maximumPickupRange": 5.0
+    "pickupNormally": false,
+    "maximumPickupRange": 5,
+    "hitboxIncrease": 0.2,
+    "alwaysPickup": {
+      "entries": [],
+      "isWhitelist": true
+    }
+  },
+  "throw": {
+    "enabled": true,
+    "maxStages": 6,
+    "multiplierPerStage": 1,
+    "stageChargeTime": 10
   }
 }

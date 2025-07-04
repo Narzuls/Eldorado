@@ -15,8 +15,10 @@
 	#The amount of energy[FE] that Solid Fuel Quarry generates in a tick.
 	#Range: 0.0 ~ 100.0
 	sfqEnergy = 2.0
-	#Remove common materials(Stone, Dirt, Grass, Sand) obtained by Chunk Destroyer
+	#Remove common materials(Stone, Dirt, Grass, Sand, etc.) obtained by Chunk Destroyer
 	removeCommonMaterialsByCD = true
+	#Remove fluids after Chunk Destroyer finishes working. Recommended to set `false` as some issues are reported in #371
+	removeFluidAfterFinishedByCD = false
 	#Remove MarkerPlus guide line if player is too far from the marker.
 	reduceMarkerGuideLineIfPlayerIsFar = false
 	#Remove adjacent frames when quarry is removed.
@@ -26,6 +28,18 @@
 	#The range limit(unit: blocks) of ChunkDestroyer. Set -1 or 0 to remove limitation.
 	#Range: > -1
 	chunkDestroyerLimit = -1
+	#The max distance(unit: blocks) Flexible Marker can reach
+	#Range: 16 ~ 4096
+	flexMarkerMaxDistance = 256
+	#True to allow pipes to extract items in WorkbenchPlus
+	allowWorkbenchExtraction = false
+	#Use simple chunk load function.
+	#If you have other chunk load system, please disable this and use other mods.
+	enableChunkLoader = true
+	#Trace quarry work
+	logAllQuarryWork = false
+	#Custom player
+	customPlayer = false
 
 #QuarryPlus Machines. Set true to enable machine or item.
 [machines]
@@ -35,7 +49,8 @@
 	exp_module = true
 	exp_pump = true
 	filler = true
-	filler_module = true
+	filler_module = false
+	filter_module = true
 	fuel_module_normal = true
 	mini_quarry = true
 	mining_well = true
@@ -46,6 +61,7 @@
 	quarry = true
 	remote_placer = false
 	remove_bedrock_module = false
+	repeat_tick_module = false
 	replacer = false
 	replacer_module = false
 	solid_fuel_quarry = true
@@ -140,6 +156,12 @@
 		breakFortuneCoefficient = 1.5874010519681996
 		#Range: 0.0 ~ 1.0E9
 		breakSilktouchCoefficient = 4.0
+
+#IC2 integration
+[ic2-integration]
+	#The rate to convert EU to nano FE. Default(4,000,000,000) is the rate of 1 EU = 4 FE
+	#Range: 1 ~ 9223372036854775807
+	conversionRate = 4000000000
 
 #Enchantments. Defines enchantments machines can accept.
 [enchantments]

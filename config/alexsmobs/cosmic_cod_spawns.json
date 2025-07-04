@@ -2,9 +2,9 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "end"
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "minecraft:is_end"
       }
     ]
   ]

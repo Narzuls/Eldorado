@@ -1,38 +1,16 @@
 {
-  "citadel_format": 0,
   "biomes": [
     [
       {
         "type": "BIOME_TAG",
-        "negate": true,
+        "negate": false,
         "value": "forge:is_hot/overworld"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "terralith:shrubland"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "terralith:volcanic_crater"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "terralith:volcanic_peaks"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "byg:firecracker_shrubland"
       }
     ]
