@@ -1,12 +1,14 @@
 ServerEvents.recipes(event => {
+    
 //#region Removed_Recipes
     event.remove({id: 'exdeorum:diamond_mesh'})
     event.remove({id: 'exdeorum:gold_mesh'})
     event.remove({id: 'exdeorum:iron_mesh'})
     event.remove({id: 'exdeorum:flint_mesh'})
     event.remove({ type: 'exdeorum:sieve', ingredient: 'minecraft:gravel' })
+    event.remove({ type: 'exdeorum:sieve', ingredient: 'minecraft:sand' })
+    event.remove({ type: 'exdeorum:sieve', ingredient: 'exdeorum:dust' })
 //#endregion
-
 
 const addSieveRecipes = (input, mesh, result, chance) =>{
     if(chance >0){
@@ -38,7 +40,7 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
     addSieveItem('minecraft:gravel', 'minecraft:coal', 0, 0.15, 0.20, 0.30, 0.40, 0.45)
     addSieveItem('minecraft:gravel', 'exdeorum:gold_ore_chunk', 0, 0, 0.1, 0.2, 0.3, 0.4)
     addSieveItem('minecraft:gravel', 'exdeorum:iron_ore_chunk', 0, 0.50, 0.75, 1.0, 1.0, 1.0)
-    addSieveItem('minecraft:gravel', 'exdeorum:copper_ore_chunk', 0, 0, 0.05, 0.1, 0.2, 0.3)
+    addSieveItem('minecraft:gravel', 'exdeorum:copper_ore_chunk', 0, 0.25, 0.75, 1.0, 1.0, 1.0)
     addSieveItem('minecraft:gravel', 'exdeorum:osmium_ore_chunk', 0, 0, 0.01, 0.085, 0.125, 0.220)
     addSieveItem('minecraft:gravel', 'exdeorum:tin_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
     addSieveItem('minecraft:gravel', 'exdeorum:silver_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
@@ -82,34 +84,36 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
 
 //#region Dust
 
-    addSieveItem('minecraft:dust', 'minecraft:gunpowder', 0.15, 0.20, 0.25, 0.30, 0.40)
-    addSieveItem('minecraft:dust', 'minecraft:redstone', 0.15, 0.20, 0.25, 0.30, 0.40)
-    addSieveItem('minecraft:dust', 'minecraft:glowstone_dust', 0.15, 0.20, 0.25, 0.30, 0.40)
-    addSieveItem('minecraft:dust', 'minecraft:blaze_powder', 0.15, 0.20, 0.25, 0.30, 0.40)
-    addSieveItem('minecraft:dust', 'exdeorum:gold_ore_chunk', 0, 0, 0.1, 0.2, 0.3, 0.4)
-    addSieveItem('minecraft:dust', 'exdeorum:iron_ore_chunk', 0, 0.50, 1.0, 1.0, 1.0, 1.0)
-    addSieveItem('minecraft:dust', 'exdeorum:copper_ore_chunk', 0, 0, 0.05, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:dust', 'exdeorum:osmium_ore_chunk', 0, 0, 0.01, 0.085, 0.125, 0.225)
-    addSieveItem('minecraft:dust', 'exdeorum:tin_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:dust', 'exdeorum:silver_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:dust', 'exdeorum:lead_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:dust', 'exdeorum:nickel_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:dust', 'exdeorum:platinum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:dust', 'exdeorum:aluminum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:dust', 'minecraft:diamond', 0, 0, 0, 0.008, 0.016, 0.020)
-    addSieveItem('minecraft:dust', 'minecraft:emerald', 0, 0, 0, 0.008, 0.016, 0.020)
+    addSieveItem('exdeorum:dust', 'minecraft:gunpowder', 0.15, 0.20, 0.25, 0.30, 0.40)
+    addSieveItem('exdeorum:dust', 'minecraft:redstone', 0.15, 0.20, 0.25, 0.30, 0.40)
+    addSieveItem('exdeorum:dust', 'minecraft:glowstone_dust', 0.15, 0.20, 0.25, 0.30, 0.4)
+    addSieveItem('exdeorum:dust', 'minecraft:blaze_powder', 0.15, 0.20, 0.25, 0.30, 0.4)
+    addSieveItem('exdeorum:dust', 'exdeorum:gold_ore_chunk', 0, 0, 0.1, 0.2, 0.3, 0.4)
+    addSieveItem('exdeorum:dust', 'exdeorum:iron_ore_chunk', 0, 0.50, 1.0, 1.0, 1.0, 1.0)
+    addSieveItem('exdeorum:dust', 'exdeorum:copper_ore_chunk', 0, 0, 0.05, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:dust', 'exdeorum:osmium_ore_chunk', 0, 0, 0.01, 0.085, 0.125, 0.225)
+    addSieveItem('exdeorum:dust', 'exdeorum:tin_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:dust', 'exdeorum:silver_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:dust', 'exdeorum:lead_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:dust', 'exdeorum:nickel_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:dust', 'exdeorum:platinum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:dust', 'exdeorum:aluminum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:dust', 'minecraft:diamond', 0, 0, 0, 0.008, 0.016, 0.020)
+    addSieveItem('exdeorum:dust', 'minecraft:emerald', 0, 0, 0, 0.008, 0.016, 0.020)
+    addSieveItem('exdeorum:dust', 'chemlib:iridium_dust', 0, 0, 0, 0, 0.01, 0.03)
+
 
     // Loop through each gem and add sieve recipes
     gems.forEach(gem => {
-        addSieveRecipes('minecraft:dust', 'exdeorum:iron_mesh', gem.id, 0.001);
-        addSieveRecipes('minecraft:dust', 'exdeorum:gold_mesh', gem.id, 0.001);
-        addSieveRecipes('minecraft:dust', 'exdeorum:diamond_mesh', gem.id, 0.001);
-        addSieveRecipes('minecraft:dust', 'exdeorum:netherite_mesh', gem.id, 0.001);
+        addSieveRecipes('exdeorum:dust', 'exdeorum:iron_mesh', gem.id, 0.001);
+        addSieveRecipes('exdeorum:dust', 'exdeorum:gold_mesh', gem.id, 0.001);
+        addSieveRecipes('exdeorum:dust', 'exdeorum:diamond_mesh', gem.id, 0.001);
+        addSieveRecipes('exdeorum:dust', 'exdeorum:netherite_mesh', gem.id, 0.001);
     });
-//#endregion
+//#endregion2
 
 //#region Netherrack
-   // addSieveItem('minecraft:netherrack', 'minecraft:flint', 0.15, 0.20, 0.25, 0.30, 0.40)
+   addSieveItem('minecraft:netherrack', 'minecraft:flint', 0.15, 0.20, 0.25, 0.30, 0.40)
 //#endregion
 
     console.log('Ex_Deorum KubeJS has fired !')
