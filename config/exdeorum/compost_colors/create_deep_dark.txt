@@ -1,0 +1,11 @@
+// Compost colors for create_deep_dark. You may add your own colors, change existing ones, or remove colors that aren't needed.
+echo_armor_boots, #8434a
+echo_armor_chestplate, #a525b
+echo_armor_helmet, #b545c
+echo_armor_leggings, #a4b52
+echo_cake, #4e5b
+echo_cake_base, #12343a
+echo_ingot, #b5264
+echo_sword, #2a4746
+molten_echo_bucket, #8ca2ab
+sculk_flour, #266875
