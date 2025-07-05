@@ -1,0 +1,19 @@
+// Compost colors for largemeals. You may add your own colors, change existing ones, or remove colors that aren't needed.
+chicken_curry, #dda872
+cod_deluxe, #cdb480
+cooked_mutton_rack, #bc8265
+hearty_lunch, #cf8a5e
+mushroom_pot_pie, #d0964b
+mushroom_pot_pie_block, #e49e58
+omurice, #c59b26
+omurice_block, #c69e33
+pasta_with_mushroom_sauce, #cc9d57
+potato_soup, #a57812
+pufferfish_broth, #b8782d
+raw_mutton_rack, #ff8379
+red_soup, #a14a1c
+rice_pudding, #bbc29b
+roasted_mutton_rack, #a87840
+roasted_mutton_rack_block, #b98c57
+sweet_berry_custard, #e6bcc9
+tomato_egg_soup, #cd8625

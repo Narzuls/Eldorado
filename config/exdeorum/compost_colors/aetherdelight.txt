@@ -1,0 +1,26 @@
+// Compost colors for aetherdelight. You may add your own colors, change existing ones, or remove colors that aren't needed.
+aetherflower_tea, #d7cdcc
+ambrosia_dew, #ffdd58
+ambrosia_glazed_apple, #caa552
+blueberry_pie_slice, #daac96
+bowl_of_blue_berries, #50584b
+bowl_of_enchanted_berries, #a5873e
+bowl_of_ginger_cookies, #a87546
+cooked_aerfillet, #62a0bf
+enchanted_pie_slice, #ffe889
+festive_sweets, #b66234
+goldenleaf_salad, #dd974e
+gravitite_knife, #af589e
+holystone_knife, #7f766f
+luxbuds_salad, #90a494
+oat_cookie, #f8c5a7
+quail_stew, #9d6b30
+raw_aerfillet, #68cad0
+skyjade_knife, #728450
+strange_root_salad, #7f724e
+stratus_knife, #a073a4
+sweet_and_sour_soup, #785f64
+swet_pudding, #7da7c3
+swet_syrup, #9acdf0
+veridium_knife, #5e78a8
+zanite_knife, #8a58c6

@@ -1,0 +1,4 @@
+// Compost colors for powerutils. You may add your own colors, change existing ones, or remove colors that aren't needed.
+module_fe, #768669
+module_ic, #687f86
+module_qe, #727272
