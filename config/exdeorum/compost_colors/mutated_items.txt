@@ -1,0 +1,18 @@
+// Compost colors for mutated_items. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cauldron_bud_spawn_egg, #504e54
+cursed_tome_spawn_egg, #694a30
+dragon_breath_man_spawn_egg, #ff9de4
+echo_despoiler_spawn_egg, #41686c
+end_hammerhead_shark_spawn_egg, #907897
+ender_hull_spawn_egg, #1e665c
+fire_fox_spawn_egg, #ffa83d
+furnace_golem_spawn_egg, #8d8a89
+item_mutation_icon, #290f4b
+living_totem_spawn_egg, #ffe182
+quartz_crab_spawn_egg, #eedacd
+redstone_bug_spawn_egg, #8e0704
+shear_ant_spawn_egg, #9a6e64
+slimy_bear_spawn_egg, #94e18a
+spawning_hutch_spawn_egg, #303a51
+straw_dummy_spawn_egg, #c88d48
+torchy_spawn_egg, #ab8046

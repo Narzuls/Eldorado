@@ -24,3 +24,5 @@ saves/
 xaero/
 
 XaeroWaypoints_BACKUP240807/New World/
+
+.mixin.out/class/net/minecraft/client/renderer/RenderType$CompositeRenderType.class
