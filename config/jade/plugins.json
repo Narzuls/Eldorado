@@ -5,13 +5,13 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
-    "energy_storage": true,
     "entity_armor.max_for_render": 40,
+    "energy_storage": true,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -19,8 +19,8 @@
     "crop_progress": true,
     "command_block": true,
     "mob_growth": true,
-    "waxed": true,
     "harvest_tool.new_line": false,
+    "waxed": true,
     "entity_health.max_for_render": 40,
     "entity_health.show_fractions": false,
     "mob_spawner": true,
@@ -74,14 +74,14 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
+  },
   "exdeorum": {
     "infested_leaves": true,
     "barrel": true,
     "crucible": true,
     "sieve": true
-  },
-  "jadeaddons.mcjtylib": {
-    "jadeaddons": true
   },
   "mekanismcovers": {
     "cover_component": true
@@ -99,8 +99,8 @@
   },
   "ae2": {
     "part_icon": true,
-    "charger": true,
     "debug": true,
+    "charger": true,
     "part_tooltip": true,
     "grid_node_state": true,
     "pattern_provider": true,
@@ -110,8 +110,8 @@
     "part_name": true
   },
   "extendedcrafting": {
-    "elite_auto_table": true,
     "ender_crafter": true,
+    "elite_auto_table": true,
     "basic_auto_table": true,
     "flux_crafter": true,
     "advanced_table": true,
@@ -136,18 +136,18 @@
     "jade_plugin": true,
     "compact_number": false
   },
-  "projecte": {
-    "emc_provider": true
-  },
   "mekanism": {
     "infuse_type": true,
-    "gas": true,
     "remove_builtin": true,
+    "gas": true,
     "pigment": true,
     "fluid": true,
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "projecte": {
+    "emc_provider": true
   },
   "projectexpansion": {
     "provider": true
@@ -163,8 +163,8 @@
     "oven": true,
     "sink": true,
     "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
+    "toaster": true,
+    "milk_jar": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
@@ -193,9 +193,9 @@
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
-    "entity": true,
     "redstone": true,
     "camo": true,
+    "entity": true,
     "semiblock": true
   },
   "bonsaitrees3": {
@@ -205,12 +205,38 @@
     "crafter": true,
     "advanced_crafter": true
   },
+  "gtceu": {
+    "primitive_pump": true,
+    "auto_output_info": true,
+    "workable_provider": true,
+    "transformer": true,
+    "controllable_provider": true,
+    "me_pattern_buffer": true,
+    "exhaust_vent_info": true,
+    "me_pattern_buffer_proxy": true,
+    "multiblock_structure": true,
+    "recipe_logic_provider": true,
+    "maintenance_info": true,
+    "machine_mode": true,
+    "electric_container_provider": true,
+    "steam_boiler_info": true,
+    "recipe_output_info": true,
+    "stained_color": true,
+    "hazard_cleaner_provider": true,
+    "cable_info": true,
+    "parallel_info": true
+  },
   "excompressum": {
     "bait": true,
     "auto_sieve": true,
     "heavy_sieve": true,
     "auto_hammer": true,
     "wooden_crucible": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
   },
   "balm": {
     "jade": true
@@ -239,26 +265,23 @@
   "jadeaddons.lootr": {
     "info": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "shetiphiancore": {
     "hud.rgb16": true,
     "hud": true,
     "hud.redstone": true
   },
-  "mysticalagradditions": {
-    "infused_farmland": true
+  "supplementaries": {
+    "hat_stand": true
   },
   "twilightforest": {
     "quest_ram_wool": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "dynamictrees": {
-    "rooty_water": true,
-    "pod": true,
-    "fruit": true,
-    "rooty": true,
-    "branch": true
+  "jadeaddons.deepresonance": {
+    "crystal": true,
+    "generator_part": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,
