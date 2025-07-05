@@ -13,7 +13,7 @@
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 0x965327
+	color = 9851687
 
 [create]
 	#The default byproduct material to output in Create's crushing.
