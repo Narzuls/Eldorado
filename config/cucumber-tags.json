@@ -17,7 +17,7 @@
   "forge:ingots/graphite": "bigreactors:graphite_ingot",
   "forge:ingots/uranium": "bigreactors:yellorium_ingot",
   "forge:ingots/aluminum": "xycraft_world:aluminum_ingot",
-  "forge:ingots/mithril": "null",
+  "forge:ingots/mithril": "industrialupgrade:itemingots/mythril",
   "forge:ingots/iridium": "chemlib:iridium_ingot",
   "forge:ingots/zinc": "create:zinc_ingot",
   "forge:ingots/signalum": "thermal:signalum_ingot",
