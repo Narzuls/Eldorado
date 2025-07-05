@@ -374,6 +374,17 @@
         "value": 100
       }
     },
+    "alexscaves_torpedoes:shadow_remaining_time": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 200,
+        "value": 200
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -592,6 +603,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "tinkersjewelry:fortune": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "obscure_api:resilience": {
@@ -825,6 +847,17 @@
         "value": 1000000
       }
     },
+    "tinkersjewelry:silk": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "forge:swim_speed": {
       "enabled": false,
       "min": {
@@ -856,6 +889,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "tinkersjewelry:subspace": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 6,
+        "value": 6
       }
     },
     "traveloptics:aqua_spell_power": {
@@ -1079,6 +1123,17 @@
       }
     },
     "tconstruct:player.mining_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tinkersjewelry:trade": {
       "enabled": false,
       "min": {
         "default": 0,

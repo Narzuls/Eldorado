@@ -71,6 +71,8 @@
   "immersiveengineering:multiblock_icon": null,
   "immersiveengineering:multiblock_inventory": null,
   "immersiveengineering:multiblock_tank": null,
+  "industrialupgrade:component_provider_blockentity": null,
+  "industrialupgrade:deposists_provider_blockentity": null,
   "integrateddynamicscompat:drying_basin": null,
   "integrateddynamicscompat:mechanical_drying_basin": null,
   "integrateddynamicscompat:mechanical_squeezer": null,
