@@ -3,7 +3,7 @@
   "forge:ingots/constantan": "tfmg:constantan_ingot",
   "forge:ingots/tungsten": "chemlib:tungsten_ingot",
   "forge:ingots/tin": "chemlib:tin_ingot",
-  "forge:gems/sapphire": "iceandfire:sapphire_gem",
+  "forge:gems/sapphire": "silentgems:sapphire",
   "forge:ingots/bronze": "tcintegrations:bronze_ingot",
   "forge:ingots/lumium": "thermal:lumium_ingot",
   "forge:ingots/electrum": "thermal:electrum_ingot",
