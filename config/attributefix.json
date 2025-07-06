@@ -216,7 +216,7 @@
         "value": 0
       },
       "max": {
-        "default": 20,
+        "default": 100,
         "value": 1000000
       }
     },
@@ -372,17 +372,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "alexscaves_torpedoes:shadow_remaining_time": {
-      "enabled": false,
-      "min": {
-        "default": -200,
-        "value": -200
-      },
-      "max": {
-        "default": 200,
-        "value": 200
       }
     },
     "minecraft:generic.flying_speed": {
@@ -649,17 +638,6 @@
         "value": 100
       }
     },
-    "minecolonies:mc_mob_damage": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 20,
-        "value": 20
-      }
-    },
     "attributeslib:cold_damage": {
       "enabled": false,
       "min": {
@@ -902,17 +880,6 @@
         "value": 6
       }
     },
-    "traveloptics:aqua_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "irons_spellbooks:ender_spell_power": {
       "enabled": false,
       "min": {
@@ -969,17 +936,6 @@
       }
     },
     "irons_spellbooks:blood_magic_resist": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "traveloptics:aqua_magic_resist": {
       "enabled": false,
       "min": {
         "default": -100,
@@ -1063,7 +1019,7 @@
         "value": 0
       },
       "max": {
-        "default": 30,
+        "default": 200,
         "value": 1000000
       }
     },

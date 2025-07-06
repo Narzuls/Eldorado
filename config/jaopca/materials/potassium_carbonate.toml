@@ -13,5 +13,5 @@
 	#The model type of the material.
 	modelType = "dust"
 	#The color of this material.
-	color = 10203792
+	color = 7566179
 

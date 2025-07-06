@@ -32,6 +32,7 @@ candle_holder_yellow, #e1dac6
 candy, #ff5e97
 cannon, #574337
 cannonball, #6f7686
+cartographers_quill, #ffffda
 crank, #aea494
 dispenser_minecart, #737675
 dragon_banner_pattern, #fffff1

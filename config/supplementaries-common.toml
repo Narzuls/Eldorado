@@ -184,13 +184,15 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"minecraft:sticky_piston" = "minecraft:piston"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"minecraft:sticky_piston" = "minecraft:piston"
 			"quark:dirty_glass" = "minecraft:glass"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 
 	[functional.cannon]
 		enabled = true
+		#Makes TNT-like block shot from a cannon explode on impact
+		explode_tnt = true
 		#Cannon fire power multiplier
 		#Range: 0.0 ~ 5.0
 		fire_power = 0.6
@@ -201,8 +203,6 @@
 		#Range: 0 ~ 500
 		cooldown = 60
 		music_disc_heave_ho = true
-		#Makes TNT-like block shot from a cannon explode on impact
-		explode_tnt = true
 
 		[functional.cannon.cannonball]
 			enabled = true

@@ -97,6 +97,13 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "alekiships": {
+    "furnace": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "block": true,
+    "note_block": true
+  },
   "ae2": {
     "part_icon": true,
     "debug": true,
@@ -152,6 +159,11 @@
   "projectexpansion": {
     "provider": true
   },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
   "pipez": {
     "pipe": true
   },
@@ -182,6 +194,9 @@
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true
+  },
+  "champions": {
+    "enable_affix_compact": true
   },
   "tombstone": {
     "graves": true

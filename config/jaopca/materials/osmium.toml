@@ -13,7 +13,7 @@
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 10661820
+	color = 7711419
 
 [electrodynamics]
 	#The byproduct material to output in Create's crushing.

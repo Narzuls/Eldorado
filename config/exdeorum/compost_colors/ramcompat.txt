@@ -1,4 +1,0 @@
-// Compost colors for ramcompat. You may add your own colors, change existing ones, or remove colors that aren't needed.
-frost_robe, #7aaefa
-stink_gland, #c3da22
-tendon_lump, #c3bc9b

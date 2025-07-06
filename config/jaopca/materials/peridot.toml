@@ -13,7 +13,7 @@
 	#The model type of the material.
 	modelType = "crystal"
 	#The color of this material.
-	color = 6662979
+	color = 6535773
 
 [mekanism]
 	#The default base to use in Mekanism's Combiner to recreate ores.
