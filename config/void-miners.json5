@@ -7,11 +7,6 @@
       "duration": 300,
       "energyTick": 650,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -21,6 +16,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     },
@@ -29,11 +29,6 @@
       "duration": 600,
       "energyTick": 500,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -43,6 +38,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     },
@@ -51,11 +51,6 @@
       "duration": 800,
       "energyTick": 400,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -65,6 +60,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     },
@@ -73,11 +73,6 @@
       "duration": 900,
       "energyTick": 350,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -87,6 +82,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     },
@@ -95,11 +95,6 @@
       "duration": 500,
       "energyTick": 550,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -109,6 +104,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     },
@@ -117,11 +117,6 @@
       "duration": 400,
       "energyTick": 600,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -131,6 +126,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     },
@@ -139,11 +139,6 @@
       "duration": 1000,
       "energyTick": 300,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -153,6 +148,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     },
@@ -161,11 +161,6 @@
       "duration": 700,
       "energyTick": 450,
       "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -175,6 +170,11 @@
           "energy": 1.2,
           "speed": 1.0,
           "item": 1.75
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
         }
       }
     }

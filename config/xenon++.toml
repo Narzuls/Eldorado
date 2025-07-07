@@ -32,7 +32,7 @@
 		#Raise clouds
 		#Modify clouds height perfect for a adaptative world experience
 		#Range: 0 ~ 512
-		cloudsHeight = 264
+		cloudsHeight = 220
 		#Chunks fade in speed
 		#This option doesn't affect performance, just changes speed
 		#Allowed Values: OFF, FAST, SLOW
