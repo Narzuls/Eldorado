@@ -7,6 +7,7 @@ advancement_14, #ffff76
 advancement_15, #ffffff
 advancement_16, #aa8057
 advancement_17, #44b58a
+advancement_18, #7066c9
 advancement_2, #ffaaff
 advancement_3, #edcc5c
 advancement_4, #47512f
@@ -29,6 +30,7 @@ grave_plate, #373737
 lollipop, #ffffff
 lost_tablet, #8e836b
 magic_scroll, #ffe8ff
+readable_scroll, #d7ab5c
 receptacle_of_familiar, #73d55
 receptacle_of_soul, #623994
 scroll_of_aquatic_life, #d7ab5c
