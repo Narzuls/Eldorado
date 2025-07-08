@@ -19,6 +19,13 @@ auto_smelting_upgrade, #d2753e
 auto_smoking_upgrade, #d77841
 battery_upgrade, #c86844
 blasting_upgrade, #d36e48
+chipped/alchemy_bench_upgrade, #d26f4a
+chipped/botanist_workbench_upgrade, #d46f4a
+chipped/carpenters_table_upgrade, #d66f48
+chipped/glassblower_upgrade, #dc734d
+chipped/loom_table_upgrade, #d46f4a
+chipped/mason_table_upgrade, #d26e48
+chipped/tinkering_table_upgrade, #d7704a
 compacting_upgrade, #cf6b47
 crafting_upgrade, #ca6946
 deposit_upgrade, #d66f48

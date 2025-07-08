@@ -1,4 +1,7 @@
 
+[harvester]
+	uses_knife = true
+
 [slicer]
 	consume_tool_durability = true
 	ignore_rotation = false
@@ -15,7 +18,4 @@
 	fluid_per_use = 100
 	#Range: 1 ~ 32
 	horizontal_range = 5
-
-[harvester]
-	uses_knife = true
 
