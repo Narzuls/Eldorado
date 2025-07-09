@@ -143,18 +143,18 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
     });
 //#endregion2
 
-//#region Netherrack
-   addSieveItem('minecraft:netherrack', 'minecraft:glowstone_dust', 0, 0, 0, 0.20, 0.30, 0.60)
-   addSieveItem('minecraft:netherrack', 'minecraft:coal', 0, 0.15, 0.20, 0.25, 0.30, 1.0)
-   addSieveItem('minecraft:netherrack', 'minecraft:raw_iron', 0, 0, 0, 0, 0.2, 1.0)
-   addSieveItem('minecraft:netherrack', 'minecraft:raw_copper', 0, 0, 0, 0, 0.2, 1.0)
-   addSieveItem('minecraft:netherrack', 'minecraft:raw_gold', 0, 0, 0, 0, 0.2, 1.0)
-   addSieveItem('minecraft:netherrack', 'minecraft:quartz', 0, 0, 0.10, 0.2, 0.3, 1.0)
-   addSieveItem('minecraft:netherrack', 'minecraft:nether_wart', 0, 0, 0.10, 0.2, 0.3, 1.0)
-   addSieveItem('minecraft:netherrack', 'minecraft:magma_cream', 0, 0, 0.10, 0.2, 0.3, 1.0)
-   addSieveItem('minecraft:netherrack', 'minecraft:gunpowder', 0, 0, 0.30, 0.40, 0.80, 1)
-   addSieveItem('minecraft:netherrack', 'exdeorum:warped_nylium_spores', 0, 0, 0.30, 0.40, 0.80, 1)
-   addSieveItem('minecraft:netherrack', 'exdeorum:crimson_nylium_spores', 0, 0, 0.30, 0.40, 0.80, 1)
+//#region Crushed Netherrack
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:glowstone_dust', 0, 0, 0, 0.20, 0.30, 0.60)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:coal', 0, 0.15, 0.20, 0.25, 0.30, 1.0)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:raw_iron', 0, 0, 0, 0, 0.2, 1.0)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:raw_copper', 0, 0, 0, 0, 0.2, 1.0)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:raw_gold', 0, 0, 0, 0, 0.2, 1.0)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:quartz', 0, 0, 0.10, 0.2, 0.3, 1.0)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:nether_wart', 0, 0, 0.10, 0.2, 0.3, 1.0)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:magma_cream', 0, 0, 0.10, 0.2, 0.3, 1.0)
+   addSieveItem('exdeorum:crushed_netherrack', 'minecraft:gunpowder', 0, 0, 0.30, 0.40, 0.80, 1)
+   addSieveItem('exdeorum:crushed_netherrack', 'exdeorum:warped_nylium_spores', 0, 0, 0.30, 0.40, 0.80, 1)
+   addSieveItem('exdeorum:crushed_netherrack', 'exdeorum:crimson_nylium_spores', 0, 0, 0.30, 0.40, 0.80, 1)
 
 //#endregion
 
@@ -245,31 +245,31 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
 
 //#endregion
 
-//#region DeepSlate
-    addSieveItem('minecraft:deepslate', 'exdeorum:gold_ore_chunk', 0, 0, 0.1, 0.2, 0.3, 0.4)
-    addSieveItem('minecraft:deepslate', 'exdeorum:iron_ore_chunk', 0, 0.50, 1.0, 1.0, 1.0, 1.0)
-    addSieveItem('minecraft:deepslate', 'exdeorum:copper_ore_chunk', 0, 0, 0.05, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:osmium_ore_chunk', 0, 0, 0.01, 0.085, 0.125, 0.225)
-    addSieveItem('minecraft:deepslate', 'exdeorum:tin_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:silver_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:lead_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:nickel_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:platinum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:aluminum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:uranium_ore_chunk', 0, 0, 0, 0.02, 0.10, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:zinc_ore_chunk', 0, 0, 0, 0.05, 0.10, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:cobalt_ore_chunk', 0, 0, 0, 0.02, 0.10, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:thorium_ore_chunk', 0, 0, 0, 0, 0.10, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:magnesium_ore_chunk', 0, 0, 0, 0.15, 0.10, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:lithium_ore_chunk', 0, 0, 0, 0, 0.10, 0.3)
-    addSieveItem('minecraft:deepslate', 'exdeorum:boron_ore_chunk', 0, 0, 0, 0, 0.10, 0.3)
-    addSieveItem('minecraft:deepslate', 'minecraft:diamond', 0, 0, 0, 0.08, 0.22, 1)
-    addSieveItem('minecraft:deepslate', 'minecraft:emerald', 0, 0, 0, 0.08, 0.22, 1)
-    addSieveItem('minecraft:deepslate', 'minecraft:lapis_lazuli', 0, 0, 0.12, 0.15, 0.25, 1)
-    addSieveItem('minecraft:deepslate', 'minecraft:amethyst_shard', 0, 0, 0.12, 0.15, 0.25, 1)
+//#region Crushed DeepSlate
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:gold_ore_chunk', 0, 0, 0.1, 0.2, 0.3, 0.4)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:iron_ore_chunk', 0, 0.50, 1.0, 1.0, 1.0, 1.0)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:copper_ore_chunk', 0, 0, 0.05, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:osmium_ore_chunk', 0, 0, 0.01, 0.085, 0.125, 0.225)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:tin_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:silver_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:lead_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:nickel_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:platinum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:aluminum_ore_chunk', 0, 0, 0.04, 0.1, 0.2, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:uranium_ore_chunk', 0, 0, 0, 0.02, 0.10, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:zinc_ore_chunk', 0, 0, 0, 0.05, 0.10, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:cobalt_ore_chunk', 0, 0, 0, 0.02, 0.10, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:thorium_ore_chunk', 0, 0, 0, 0, 0.10, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:magnesium_ore_chunk', 0, 0, 0, 0.15, 0.10, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:lithium_ore_chunk', 0, 0, 0, 0, 0.10, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'exdeorum:boron_ore_chunk', 0, 0, 0, 0, 0.10, 0.3)
+    addSieveItem('exdeorum:crushed_deepslate', 'minecraft:diamond', 0, 0, 0, 0.08, 0.22, 1)
+    addSieveItem('exdeorum:crushed_deepslate', 'minecraft:emerald', 0, 0, 0, 0.08, 0.22, 1)
+    addSieveItem('exdeorum:crushed_deepslate', 'minecraft:lapis_lazuli', 0, 0, 0.12, 0.15, 0.25, 1)
+    addSieveItem('exdeorum:crushed_deepslate', 'minecraft:amethyst_shard', 0, 0, 0.12, 0.15, 0.25, 1)
 //#endregion
 
-//#region BlackStone
+//#region Crushed BlackStone
     addSieveItem('exdeorum:crushed_blackstone', 'minecraft:gold_nugget', 0, 0, 0.1, 0.2, 0.3, 0.4)
     addSieveItem('exdeorum:crushed_blackstone', 'minecraft:magma_cream', 0, 0, 0.1, 0.2, 0.3, 1.0)
     addSieveItem('exdeorum:crushed_blackstone', 'minecraft:gunpowder', 0, 0, 0.3, 0.4, 0.8, 1.0)
