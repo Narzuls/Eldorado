@@ -1,0 +1,5 @@
+// Compost colors for simpleshops. You may add your own colors, change existing ones, or remove colors that aren't needed.
+green_stockbar, #ffffff
+quartz_stockbar, #ffffff
+red_stockbar, #ffffff
+wooden_stockbar, #ffffff
