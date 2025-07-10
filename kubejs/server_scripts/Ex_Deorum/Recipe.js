@@ -159,12 +159,12 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
 //#endregion
 
 //#region EndSton
-   addSieveItem('minecraft:end_stone', 'minecraft:ender_pearl', 0, 0, 0.01, 0.08, 0.10, 0.12)
-   addSieveItem('minecraft:end_stone', 'minecraft:ender_eye', 0, 0, 0.01, 0.08, 0.10, 0.12)
-   addSieveItem('minecraft:end_stone', 'minecraft:chorus_fruit', 0, 0, 0.45, 0.50, 0.55, 0.65)
-   addSieveItem('minecraft:end_stone', 'minecraft:chorus_flower', 0, 0, 0.45, 0.50, 0.5, 0.65)
-   addSieveItem('minecraft:end_stone', 'minecraft:echo_shard', 0, 0, 0, 0, 0, 0.10)
-   addSieveItem('minecraft:end_stone', 'minecraft:sculk_shrieker', 0, 0, 0, 0, 0, 0.03)
+   addSieveItem('exdeorum:crushed_end_stone', 'minecraft:ender_pearl', 0, 0, 0.01, 0.08, 0.10, 0.12)
+   addSieveItem('exdeorum:crushed_end_stone', 'minecraft:ender_eye', 0, 0, 0.01, 0.08, 0.10, 0.12)
+   addSieveItem('exdeorum:crushed_end_stone', 'minecraft:chorus_fruit', 0, 0, 0.45, 0.50, 0.55, 0.65)
+   addSieveItem('exdeorum:crushed_end_stone', 'minecraft:chorus_flower', 0, 0, 0.45, 0.50, 0.5, 0.65)
+   addSieveItem('exdeorum:crushed_end_stone', 'minecraft:echo_shard', 0, 0, 0, 0, 0, 0.10)
+   addSieveItem('exdeorum:crushed_end_stone', 'minecraft:sculk_shrieker', 0, 0, 0, 0, 0, 0.03)
 //#endregion
 
 //#region SoulSand
