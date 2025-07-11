@@ -1,6 +1,20 @@
 ServerEvents.recipes(event => {
 
+    let recipeCounter = 0;
+    
+    //event.remove({ type: 'exdeorum:sieve'})
+    //event.remove({ type: 'exdeorum:sieve', mod: 'exdeorum' })
+
+    try {
+        event.remove({ type: 'exdeorum:sieve', mod: 'exdeorum' })
+    } catch (e) {
+        console.log('Some Ex Deorum sieve recipes were not found (this is normal on first startup)')
+    }
+
 const addSieveRecipes = (input, mesh, result, chance) =>{
+        recipeCounter++;
+            // Use a custom namespace to avoid conflicts
+        const recipeId = `kubejs:exdeorum_sieve_${input.replace(':', '_')}_${result.replace(':', '_')}_${mesh.split(':')[1]}_${recipeCounter}`;
     if(chance >0){
         event.custom({
             type: 'exdeorum:sieve',
@@ -12,7 +26,7 @@ const addSieveRecipes = (input, mesh, result, chance) =>{
                 n:1.0,
                 p:chance
             }
-        })
+        }).id(recipeId);
     }
 }
 

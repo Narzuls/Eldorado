@@ -1,5 +1,7 @@
 ServerEvents.recipes(event => {
 
+    event.remove({ type: 'exdeorum:crucible_heat_source'})
+
     const addCrucibleHeatSource = (block, heatValue) => {
         event.custom({
             type: 'exdeorum:crucible_heat_source',
@@ -12,7 +14,7 @@ ServerEvents.recipes(event => {
 
     addCrucibleHeatSource('minecraft:torch', 1);
     addCrucibleHeatSource('minecraft:soul_torch', 1);
-    addCrucibleHeatSource('minecraft:flint_and_steel', 2);
+    //addCrucibleHeatSource('minecraft:flint_and_steel', 2);
     addCrucibleHeatSource('minecraft:lava', 3);
     addCrucibleHeatSource('minecraft:campfire', 4);
     addCrucibleHeatSource('minecraft:soul_campfire', 4);
