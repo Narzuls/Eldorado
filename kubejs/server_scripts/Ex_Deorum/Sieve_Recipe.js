@@ -2,9 +2,6 @@ ServerEvents.recipes(event => {
 
     let recipeCounter = 0;
     
-    //event.remove({ type: 'exdeorum:sieve'})
-    //event.remove({ type: 'exdeorum:sieve', mod: 'exdeorum' })
-
     try {
         event.remove({ type: 'exdeorum:sieve', mod: 'exdeorum' })
     } catch (e) {
@@ -13,8 +10,9 @@ ServerEvents.recipes(event => {
 
 const addSieveRecipes = (input, mesh, result, chance) =>{
         recipeCounter++;
-            // Use a custom namespace to avoid conflicts
-        const recipeId = `kubejs:exdeorum_sieve_${input.replace(':', '_')}_${result.replace(':', '_')}_${mesh.split(':')[1]}_${recipeCounter}`;
+        
+    // Use a custom namespace to avoid conflicts
+    const recipeId = `kubejs:exdeorum_sieve_${input.replace(':', '_')}_${result.replace(':', '_')}_${mesh.split(':')[1]}_${recipeCounter}`;
     if(chance >0){
         event.custom({
             type: 'exdeorum:sieve',
