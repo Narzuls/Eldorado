@@ -1,0 +1,12 @@
+// Compost colors for cobblestonesemantics. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cobblestone_bag, #908a83
+cobblestone_infused_obsidian_axe, #807d86
+cobblestone_infused_obsidian_bag, #3a3741
+cobblestone_infused_obsidian_boots, #363041
+cobblestone_infused_obsidian_chestplate, #3c3647
+cobblestone_infused_obsidian_helmet, #292533
+cobblestone_infused_obsidian_hoe, #9b9aa0
+cobblestone_infused_obsidian_leggings, #332f3d
+cobblestone_infused_obsidian_pickaxe, #807d84
+cobblestone_infused_obsidian_shovel, #86848a
+cobblestone_infused_obsidian_sword, #3e3a4a
