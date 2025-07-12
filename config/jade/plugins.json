@@ -1,4 +1,176 @@
 {
+  "agricraft": {
+    "soil": true,
+    "crop_block": true
+  },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
+  },
+  "exdeorum": {
+    "infested_leaves": true,
+    "barrel": true,
+    "crucible": true,
+    "sieve": true
+  },
+  "mekanismcovers": {
+    "cover_component": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "debug": true,
+    "charger": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "extendedcrafting": {
+    "ender_crafter": true,
+    "elite_auto_table": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
+  "tesseract": {
+    "tesseract": true,
+    "remove_default": true
+  },
+  "hammerlib": {
+    "root": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "remove_builtin": true,
+    "gas": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "projectexpansion": {
+    "provider": true
+  },
+  "appliedcooking": {
+    "kitchen_station": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "toaster": true,
+    "milk_jar": true
+  },
+  "compactmachines": {
+    "machine": true,
+    "tunnel": true
+  },
+  "dimstorage": {
+    "dim_block_base": true,
+    "dim_tank": true
+  },
+  "champions": {
+    "enable_affix_compact": true
+  },
+  "endercrop": {
+    "endercrop": true,
+    "endstone": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "redstone": true,
+    "camo": true,
+    "entity": true,
+    "semiblock": true
+  },
+  "bonsaitrees3": {
+    "bonsaipot": true
+  },
+  "gtceu": {
+    "primitive_pump": true,
+    "auto_output_info": true,
+    "workable_provider": true,
+    "transformer": true,
+    "controllable_provider": true,
+    "me_pattern_buffer": true,
+    "exhaust_vent_info": true,
+    "me_pattern_buffer_proxy": true,
+    "multiblock_structure": true,
+    "recipe_logic_provider": true,
+    "maintenance_info": true,
+    "machine_mode": true,
+    "electric_container_provider": true,
+    "steam_boiler_info": true,
+    "recipe_output_info": true,
+    "stained_color": true,
+    "hazard_cleaner_provider": true,
+    "cable_info": true,
+    "parallel_info": true
+  },
+  "excompressum": {
+    "bait": true,
+    "auto_sieve": true,
+    "heavy_sieve": true,
+    "auto_hammer": true,
+    "wooden_crucible": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -51,10 +223,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "agricraft": {
-    "soil": true,
-    "crop_block": true
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -74,18 +242,6 @@
     "hud.status": true,
     "hud.contents": true
   },
-  "jadeaddons.mcjtylib": {
-    "jadeaddons": true
-  },
-  "exdeorum": {
-    "infested_leaves": true,
-    "barrel": true,
-    "crucible": true,
-    "sieve": true
-  },
-  "mekanismcovers": {
-    "cover_component": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -104,60 +260,10 @@
     "block": true,
     "note_block": true
   },
-  "ae2": {
-    "part_icon": true,
-    "debug": true,
-    "charger": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
-  "extendedcrafting": {
-    "ender_crafter": true,
-    "elite_auto_table": true,
-    "basic_auto_table": true,
-    "flux_crafter": true,
-    "advanced_table": true,
-    "auto_ender_crafter": true,
-    "ultimate_table": true,
-    "ultimate_auto_table": true,
-    "elite_table": true,
-    "basic_table": true,
-    "crafting_core": true,
-    "advanced_auto_table": true,
-    "compressor": true
-  },
-  "tesseract": {
-    "tesseract": true,
-    "remove_default": true
-  },
-  "hammerlib": {
-    "root": true
-  },
   "fluidtank": {
     "short_info": false,
     "jade_plugin": true,
     "compact_number": false
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "remove_builtin": true,
-    "gas": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "projecte": {
-    "emc_provider": true
-  },
-  "projectexpansion": {
-    "provider": true
   },
   "easy_villagers": {
     "villager": true,
@@ -166,17 +272,6 @@
   },
   "pipez": {
     "pipe": true
-  },
-  "waystones": {
-    "waystone": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "toaster": true,
-    "milk_jar": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
@@ -187,82 +282,16 @@
   "enderchests": {
     "hud": true
   },
-  "compactmachines": {
-    "machine": true,
-    "tunnel": true
-  },
-  "dimstorage": {
-    "dim_block_base": true,
-    "dim_tank": true
-  },
-  "champions": {
-    "enable_affix_compact": true
-  },
   "tombstone": {
     "graves": true
-  },
-  "endercrop": {
-    "endercrop": true,
-    "endstone": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "redstone": true,
-    "camo": true,
-    "entity": true,
-    "semiblock": true
-  },
-  "bonsaitrees3": {
-    "bonsaipot": true
   },
   "extrastorage": {
     "crafter": true,
     "advanced_crafter": true
   },
-  "gtceu": {
-    "primitive_pump": true,
-    "auto_output_info": true,
-    "workable_provider": true,
-    "transformer": true,
-    "controllable_provider": true,
-    "me_pattern_buffer": true,
-    "exhaust_vent_info": true,
-    "me_pattern_buffer_proxy": true,
-    "multiblock_structure": true,
-    "recipe_logic_provider": true,
-    "maintenance_info": true,
-    "machine_mode": true,
-    "electric_container_provider": true,
-    "steam_boiler_info": true,
-    "recipe_output_info": true,
-    "stained_color": true,
-    "hazard_cleaner_provider": true,
-    "cable_info": true,
-    "parallel_info": true
-  },
-  "excompressum": {
-    "bait": true,
-    "auto_sieve": true,
-    "heavy_sieve": true,
-    "auto_hammer": true,
-    "wooden_crucible": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
-  "balm": {
-    "jade": true
-  },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
+  "refinedcooking": {
+    "kitchen_access_point": true,
+    "kitchen_station": true
   },
   "productivebees": {
     "solitary_nest": true,
@@ -271,36 +300,14 @@
     "bee_attributes": true,
     "productive_bee": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
   "jadeaddons.lootr": {
     "info": true
   },
-  "mysticalagradditions": {
-    "infused_farmland": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
   "jadeaddons.deepresonance": {
     "crystal": true,
     "generator_part": true
-  },
-  "mysticalagriculture": {
-    "infused_farmland": true,
-    "crop": true,
-    "inferium_crop": true
   }
 }

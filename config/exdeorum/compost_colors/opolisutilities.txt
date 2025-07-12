@@ -1,0 +1,26 @@
+// Compost colors for opolisutilities. You may add your own colors, change existing ones, or remove colors that aren't needed.
+advanced_home_stone, #554744
+advanced_loot_box, #9a1b2d
+animal_net, #ebb18a
+b_bucks, #fae083
+basic_loot_box, #548034
+bundled_flesh, #9d4e23
+catalogue_book, #ffca22
+copper_nugget, #f07950
+crook, #6b501e
+death_stone, #57616e
+elite_loot_box, #4822a1
+ender_pearl_fragment, #f584d
+home_stone, #554744
+jerky, #704e47
+leafy_string, #739864
+log_sheet, #ae8952
+mini_charcoal, #393326
+mini_coal, #322f33
+opolis_wrench, #415534
+sapling_grower, #ae9e94
+soaked_paper, #b4b1b6
+super_home_stone, #4a7c89
+upgrade_base, #e4e8e8
+wallet, #cc844d
+wooden_shears, #a87f44
