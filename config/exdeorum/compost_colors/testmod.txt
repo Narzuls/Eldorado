@@ -1,0 +1,27 @@
+// Compost colors for testmod. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blunt, #e1bfab
+cannamilk, #c6ccc9
+cooked_egg, #ffffff
+grapefruit_soda, #ffa0fb
+grinder, #909861
+growth_light, #cf93cf
+harvested_purple_haze, #b1b482
+harvested_weed, #80a843
+haze_sativa_seeds, #d29e64
+hemp_door, #ffffff
+joint, #ffffff
+lemon_soda, #b5c694
+pipe, #ccacff
+purple_haze_blunt, #e1bbaf
+purple_haze_bud, #847869
+purple_haze_joint, #ffffff
+purple_haze_seeds, #b5a27f
+rolling_machine, #c66e62
+sativa_seeds, #d7a847
+weed_brownie, #aac273
+weed_bud, #90bb50
+weed_cookie, #caaf6b
+weed_leaf, #546b34
+weed_muffin, #ffffd6
+weed_seeds, #ac8322
+weedmatic, #e3ea6c
