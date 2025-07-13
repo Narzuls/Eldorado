@@ -13,11 +13,10 @@ ServerEvents.recipes(event => {
     };
 
     addCrucibleHeatSource('minecraft:torch', 1);
-    addCrucibleHeatSource('minecraft:soul_torch', 1);
-    //addCrucibleHeatSource('minecraft:flint_and_steel', 2);
-    addCrucibleHeatSource('minecraft:lava', 3);
+    addCrucibleHeatSource('minecraft:soul_torch', 2);
+    addCrucibleHeatSource('minecraft:lava', 6);
     addCrucibleHeatSource('minecraft:campfire', 4);
-    addCrucibleHeatSource('minecraft:soul_campfire', 4);
+    addCrucibleHeatSource('minecraft:soul_campfire', 8);
     addCrucibleHeatSource('minecraft:magma_block', 120);
     addCrucibleHeatSource('botania:blaze_quartz', 10);
     addCrucibleHeatSource('botania:blaze_block', 30);
