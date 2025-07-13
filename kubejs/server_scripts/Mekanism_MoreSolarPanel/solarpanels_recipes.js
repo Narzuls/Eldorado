@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:carbone_solar_element',
     'O': 'mekanism:basic_control_circuit',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'mekanismgenerators:solar_generator',
     'C': 'mekanism:energy_tablet',
   })
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:hybrid_solar_element',
     'O': 'mekanism:advanced_control_circuit',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'solarpanels:advanced_solar_panel',
     'C': 'mekanism:energy_tablet',
   })
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:improved_hybrid_solar_element',
     'O': 'mekanism:elite_control_circuit',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'solarpanels:hybrid_solar_panel',
     'C': 'solarpanels:improved_energy_tablet',
   })
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:quantum_solar_element',
     'O': 'mekanism:ultimate_control_circuit',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'solarpanels:ultimate_hybrid_solar_panel',
     'C': 'solarpanels:quantum_energy_tablet',
   })
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:spectral_solar_element',
     'O': 'mekanism:hdpe_sheet',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'solarpanels:quantum_solar_panel',
     'C': 'solarpanels:spectral_energy_tablet',
   })
@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:singular_solar_element',
     'O': 'mekanism:hdpe_sheet',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'solarpanels:spectral_solar_panel',
     'C': 'solarpanels:singular_energy_tablet',
   })
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:light_absorbing_solar_element',
     'O': 'mekanism:hdpe_sheet',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'solarpanels:singular_solar_panel',
     'C': 'solarpanels:light_absorbing_energy_tablet',
   })
@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
   ], {
     'G': 'solarpanels:photonic_solar_element',
     'O': 'mekanism:hdpe_sheet',
-    'R': 'mekanism:ingot_osmium',
+    'R': '#forge:ingots/osmium',
     'A': 'solarpanels:light_absorbing_solar_panel',
     'C': 'solarpanels:photonic_energy_tablet',
   })
