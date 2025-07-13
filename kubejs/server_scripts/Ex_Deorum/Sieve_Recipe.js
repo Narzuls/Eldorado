@@ -2,9 +2,6 @@ ServerEvents.recipes(event => {
 
     let recipeCounter = 0;
     
-    //event.remove({ type: 'exdeorum:sieve'})
-    //event.remove({ type: 'exdeorum:sieve', mod: 'exdeorum' })
-
     try {
         event.remove({ type: 'exdeorum:sieve', mod: 'exdeorum' })
     } catch (e) {
@@ -13,8 +10,9 @@ ServerEvents.recipes(event => {
 
 const addSieveRecipes = (input, mesh, result, chance) =>{
         recipeCounter++;
-            // Use a custom namespace to avoid conflicts
-        const recipeId = `kubejs:exdeorum_sieve_${input.replace(':', '_')}_${result.replace(':', '_')}_${mesh.split(':')[1]}_${recipeCounter}`;
+        
+    // Use a custom namespace to avoid conflicts
+    const recipeId = `kubejs:exdeorum_sieve_${input.replace(':', '_')}_${result.replace(':', '_')}_${mesh.split(':')[1]}_${recipeCounter}`;
     if(chance >0){
         event.custom({
             type: 'exdeorum:sieve',
@@ -111,8 +109,8 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
     addSieveItem('exdeorum:dust', 'minecraft:redstone', 0, 0.20, 0.25, 0.30, 0.40, 0.70)
     addSieveItem('exdeorum:dust', 'minecraft:glowstone_dust', 0, 0.20, 0.25, 0.30, 0.4, 0.70)
     addSieveItem('exdeorum:dust', 'minecraft:blaze_powder', 0, 0, 0.25, 0.30, 0.4, 0.70)
-    addSieveItem('exdeorum:dust', 'minecraft:diamond', 0, 0, 0, 0.08, 0.22, 1.0)
-    addSieveItem('exdeorum:dust', 'minecraft:emerald', 0, 0, 0, 0.08, 0.022, 1.0)
+    addSieveItem('exdeorum:dust', 'minecraft:diamond', 0, 0, 0, 0.08, 0.22, 0.40)
+    addSieveItem('exdeorum:dust', 'minecraft:emerald', 0, 0, 0, 0.08, 0.022, 0.40)
     addSieveItem('exdeorum:dust', 'minecraft:lapis_lazuli', 0, 0, 0.12, 0.15, 0.25, 0.35)
     addSieveItem('exdeorum:dust', 'minecraft:raw_iron', 0, 0, 0, 0, 0, 0.30)
     addSieveItem('exdeorum:dust', 'minecraft:raw_copper', 0, 0, 0, 0, 0, 0.30)
@@ -200,7 +198,10 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
    addSieveItem('minecraft:dirt', 'minecraft:poisonous_potato', 0.20, 0, 0, 0, 0, 0.3)
    addSieveItem('minecraft:dirt', 'minecraft:carrot', 0.20, 0, 0, 0, 0, 0.3)
    addSieveItem('minecraft:dirt', 'minecraft:melon_seeds', 0.08, 0, 0, 0, 0, 0.3)
-   addSieveItem('minecraft:dirt', 'minecraft:pumpkin_seeds', 0, 0, 0, 0, 0, 0.3)
+   addSieveItem('minecraft:dirt', 'minecraft:pumpkin_seeds', 0.02, 0, 0, 0, 0, 0.3)
+   addSieveItem('minecraft:dirt', 'minecraft:torchflower_seeds', 0.02, 0, 0, 0, 0, 0.3)
+   addSieveItem('minecraft:dirt', 'minecraft:pitcher_pod', 0.02, 0, 0, 0, 0, 0.3)
+   addSieveItem('minecraft:dirt', 'minecraft:cocoa_beans', 0.05, 0, 0, 0, 0, 0.3)
    addSieveItem('minecraft:dirt', 'minecraft:bamboo', 0.15, 0, 0, 0, 0, 0.3)
    addSieveItem('minecraft:dirt', 'minecraft:sweet_berries', 0.10, 0, 0, 0, 0, 0.3)
    addSieveItem('minecraft:dirt', 'minecraft:pink_petals', 0.10, 0, 0, 0, 0, 0.3)
@@ -247,7 +248,7 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
 
     // Loop through each sapling and add sieve recipes
     saplings.forEach(sapling => {
-        addSieveItem('minecraft:moss_block', sapling.getId(), 0.25, 0, 0, 0, 0, 0.3);
+        addSieveItem('minecraft:moss_block', sapling.getId(), 0.03, 0.06, 0.08, 0.12, 0.15, 0.30);
     });
 
 //#endregion
