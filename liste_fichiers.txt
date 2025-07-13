@@ -1,0 +1,12 @@
+.curseclient
+.gitignore
+.qmenu_opened.marker
+liste_fichiers.txt
+minecraftinstance.json
+options.txt
+patchouli_data.json
+README.md
+rhino.local.properties
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
