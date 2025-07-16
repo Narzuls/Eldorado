@@ -1,12 +1,15 @@
 // Script KubeJS pour recréer les recettes des Solar Elements du mod solarpanels
 ServerEvents.recipes(event => {
+
+  event.remove({id: 'solarpanels:hybrid_solar_element'})
+
   event.shaped('solarpanels:carbone_solar_element', [
     'AAA',
     'BBB',
     'CCC',
   ], {
     'A': 'minecraft:black_stained_glass_pane',
-    'B': 'mekanism:dust_lapis_lazuli',
+    'B': '#forge:dusts/lapis',
     'C': 'mekanism:enriched_carbon',
   })
 
@@ -16,7 +19,7 @@ ServerEvents.recipes(event => {
     'CCC',
   ], {
     'A': 'minecraft:glass_pane',
-    'B': 'mekanism:dust_lapis_lazuli',
+    'B': '#forge:dusts/lapis',
     'C': 'mekanism:hdpe_sheet',
   })
 
