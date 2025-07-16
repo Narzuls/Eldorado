@@ -1,29 +1,88 @@
 // KubeJS recipe script for ProjectE items with Extended Crafting - 1.20.1
  ServerEvents.recipes(event => {
     
-//#region 3x3
-
-//#endregion
-
-//#region 9x9
-
-    const toRemove = [
+        const toRemove = [
         'projecte:dark_matter_pedestal',
         'projecte:watch_of_flowing_time',
-        'projectexpansion:final_star',
         'projecte:tome',
         'projecte:transmutation_tablet',
         'projecte:transmutation_table',
         'projecte:philosophers_stone',
         'projecte:condenser_mk1',
         'projecte:condenser_mk2',
-        // 'projecte:gem_helmet',
+        'projecte:red_matter',
+        'projecte:alchemical_coal',
+        'projecte:klein_star_ein',
+        'projectexpansion:final_star',
+        'projectexpansion:infinite_fuel',
+        'projecte:gem_helmet',
         // 'projecte:gem_chestplate',
         // 'projecte:gem_leggings',
         // 'projecte:gem_boots'
     ];
     
     toRemove.forEach(item => event.remove({output: item}));
+
+//#region 3x3
+    event.shaped(
+        Item.of('projecte:red_matter', 1),
+        [
+            'AAA',
+            'CBC',
+            'AAA'
+        ],
+        {
+            A: 'projectexpansion:white_fuel',
+            B: 'projecte:dark_matter',
+            C: '#forge:dusts/redstone'
+        }
+    );
+    
+    event.shaped(
+        Item.of('projectexpansion:infinite_fuel', 1),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'projectexpansion:white_fuel',
+            B: 'projecte:transmutation_tablet'
+        }
+    );
+    
+    event.shaped(
+        Item.of('projecte:klein_star_ein', 1),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'projectexpansion:yellow_matter',
+            B: 'extendedcrafting:ender_star'
+        }
+    );
+    
+    event.shaped(
+        Item.of('projecte:alchemical_coal', 1),
+        [
+            'CBC',
+            'BAB',
+            'CBC'
+        ],
+        {
+            A: 'projecte:philosophers_stone',
+            B: 'extendedcrafting:ender_star',
+            C: '#forge:coal'
+        }
+    );
+    
+//#endregion
+
+//#region 9x9
+
+
 
     const extendCraftingService = new global.createExtendedCraftingService(event); 
     // Dark Matter Pedestal
@@ -84,7 +143,7 @@
         C: 'projectexpansion:magenta_matter',
         S: 'projectexpansion:final_star_shard',
         T: 'projecte:tome',
-        O: 'projectexpansion:colossal_star_omega',
+        O: 'projectexpansion:gargantuan_star_sphere',
         P: 'projectexpansion:final_power_flower',
         X: 'extendedcrafting:ultimate_singularity'
     });
@@ -226,6 +285,31 @@
         Q: '#forge:plates/enderium',
         C: 'projecte:condenser_mk1'
     });
+ 
+    // Gem Helmet
+    extendCraftingService.createRecipe('extendedcrafting:shaped_table', 'projecte:gem_helmet', 4, 1,
+    [   
+        'IIRRRRRII',
+        'IRRCCCRRI',
+        'IRRCQCRRI',
+        'IRRCMCRRI',
+        'IRRCSCRRI',
+        'III   III',
+        '         ',
+        '         ',
+        '         '
+    ],
+    {
+        I: 'projectexpansion:fading_matter_block',
+        R: 'projecte:red_matter_block',
+        M: 'projecte:rm_helmet',
+        S: 'projecte:evertide_amulet',
+        Q: 'projecte:soul_stone',
+        C: 'projectexpansion:gargantuan_star_sphere'
+    });
+
+
+
 //#endregion
 
 
