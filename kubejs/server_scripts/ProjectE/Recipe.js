@@ -10,33 +10,18 @@
         'projecte:philosophers_stone',
         'projecte:condenser_mk1',
         'projecte:condenser_mk2',
-        'projecte:red_matter',
-        'projecte:alchemical_coal',
         'projecte:klein_star_ein',
         'projectexpansion:final_star',
         'projectexpansion:infinite_fuel',
         'projecte:gem_helmet',
-        // 'projecte:gem_chestplate',
-        // 'projecte:gem_leggings',
-        // 'projecte:gem_boots'
+        'projecte:gem_chestplate',
+        'projecte:gem_leggings',
+        'projecte:gem_boots'
     ];
     
     toRemove.forEach(item => event.remove({output: item}));
 
 //#region 3x3
-    event.shaped(
-        Item.of('projecte:red_matter', 1),
-        [
-            'AAA',
-            'CBC',
-            'AAA'
-        ],
-        {
-            A: 'projectexpansion:white_fuel',
-            B: 'projecte:dark_matter',
-            C: '#forge:dusts/redstone'
-        }
-    );
     
     event.shaped(
         Item.of('projectexpansion:infinite_fuel', 1),
@@ -64,25 +49,10 @@
         }
     );
     
-    event.shaped(
-        Item.of('projecte:alchemical_coal', 1),
-        [
-            'CBC',
-            'BAB',
-            'CBC'
-        ],
-        {
-            A: 'projecte:philosophers_stone',
-            B: 'extendedcrafting:ender_star',
-            C: '#forge:coal'
-        }
-    );
     
 //#endregion
 
 //#region 9x9
-
-
 
     const extendCraftingService = new global.createExtendedCraftingService(event); 
     // Dark Matter Pedestal
@@ -293,7 +263,7 @@
         'IRRCCCRRI',
         'IRRCQCRRI',
         'IRRCMCRRI',
-        'IRRCSCRRI',
+        'IRRRSRRRI',
         'III   III',
         '         ',
         '         ',
@@ -308,10 +278,70 @@
         C: 'projectexpansion:gargantuan_star_sphere'
     });
 
+    // Gem Plate
+    extendCraftingService.createRecipe('extendedcrafting:shaped_table', 'projecte:gem_chestplate', 4, 1,
+    [   
+        'IIIIIIIII',
+        'IRCCSCCRI',
+        'IRCCMCCRI',
+        'IRCCQCCRI',
+        'IRRRRRRRI',
+        'IRRRRRRRI',
+        'IRRRRRRRI',
+        'IRRRRRRRI',
+        'IIIIIIIII'
+    ],
+    {
+        I: 'projectexpansion:fading_matter_block',
+        R: 'projecte:red_matter_block',
+        M: 'projecte:rm_chestplate',
+        S: 'projecte:volcanite_amulet',
+        Q: 'projecte:body_stone',
+        C: 'projectexpansion:gargantuan_star_sphere'
+    });
 
+    // Gem Leg
+    extendCraftingService.createRecipe('extendedcrafting:shaped_table', 'projecte:gem_leggings', 4, 1,
+    [   
+        'IIIIIIIII',
+        'IRRRRRRRI',
+        'IRCQMSCRI',
+        'IRCIIICRI',
+        'IRCI ICRI',
+        'IRCI ICRI',
+        'IRRI IRRI',
+        'IRRI IRRI',
+        'IIII IIII'
+    ],
+    {
+        I: 'projectexpansion:fading_matter_block',
+        R: 'projecte:red_matter_block',
+        M: 'projecte:rm_leggings',
+        S: 'projecte:watch_of_flowing_time',
+        Q: 'projecte:black_hole_band',
+        C: 'projectexpansion:gargantuan_star_sphere'
+    });
+
+        extendCraftingService.createRecipe('extendedcrafting:shaped_table', 'projecte:gem_boots', 4, 1,
+    [   
+        '         ',
+        '         ',
+        '         ',
+        '         ',
+        'IRISMSIRI',
+        'IRICCCIRI',
+        'IRI   IRI',
+        'IRI   IRI',
+        'III   III'
+    ],
+    {
+        I: 'projectexpansion:fading_matter_block',
+        R: 'projecte:red_matter_block',
+        M: 'projecte:rm_boots',
+        S: 'projecte:swiftwolf_rending_gale',
+        C: 'projectexpansion:gargantuan_star_sphere'
+    });
 
 //#endregion
-
-
     console.info('ProjectE Extended Crafting recipes loaded!');
  });
