@@ -101,29 +101,30 @@ ServerEvents.recipes(event => {
     });
 
     // 6. Venus Sandstone Crushing Recipe - Fixed version
+    // Activate only if you add Ad Astra to the modpack
     // Only add if both items exist (likely from a space mod like Ad Astra or Beyond Earth)
-    if (itemExists('ad_astra:venus_sandstone') && itemExists('ad_astra:venus_sand')) {
-        try {
-            event.recipes.mekanismCrushing(
-                'ad_astra:venus_sand',
-                'ad_astra:venus_sandstone'
-            ).id('mekanism:crushing/venus_sandstone_to_venus_sand_fixed');
-        } catch (e) {
-            console.log('Could not create Venus sandstone crushing recipe:', e.message);
-        }
-    } else if (itemExists('beyond_earth:venus_sandstone') && itemExists('beyond_earth:venus_sand')) {
-        // Alternative if using Beyond Earth mod
-        try {
-            event.recipes.mekanismCrushing(
-                'beyond_earth:venus_sand',
-                'beyond_earth:venus_sandstone'
-            ).id('mekanism:crushing/venus_sandstone_to_venus_sand_fixed');
-        } catch (e) {
-            console.log('Could not create Venus sandstone crushing recipe:', e.message);
-        }
-    }
+    // if (itemExists('ad_astra:venus_sandstone') && itemExists('ad_astra:venus_sand')) {
+    //     try {
+    //         event.recipes.mekanismCrushing(
+    //             'ad_astra:venus_sand',
+    //             'ad_astra:venus_sandstone'
+    //         ).id('mekanism:crushing/venus_sandstone_to_venus_sand_fixed');
+    //     } catch (e) {
+    //         console.log('Could not create Venus sandstone crushing recipe:', e.message);
+    //     }
+    // } else if (itemExists('beyond_earth:venus_sandstone') && itemExists('beyond_earth:venus_sand')) {
+    //     // Alternative if using Beyond Earth mod
+    //     try {
+    //         event.recipes.mekanismCrushing(
+    //             'beyond_earth:venus_sand',
+    //             'beyond_earth:venus_sandstone'
+    //         ).id('mekanism:crushing/venus_sandstone_to_venus_sand_fixed');
+    //     } catch (e) {
+    //         console.log('Could not create Venus sandstone crushing recipe:', e.message);
+    //     }
+    // }
 
-    console.log('Mekanism recipes processed successfully');
+    console.log('Mekanism recipes processed successfully executed');
 });
 
 // Safe tag additions
