@@ -208,7 +208,9 @@
   "supplementaries:safe": null,
   "tesseract:remove_default": null,
   "tesseract:tesseract": null,
+  "tombstone:decorative_graves": null,
   "tombstone:graves": null,
+  "tombstone:player_graves": null,
   "twilightforest:quest_ram_wool": null,
   "waystones:waystone": null
 }
