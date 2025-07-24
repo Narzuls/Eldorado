@@ -139,7 +139,7 @@
 	#Defines the level max of the perk Priest [1..5|default:5]
 	#Range: 1 ~ 5
 	level_max_priest = 5
-	#The cooldown in minutes to reset the perks with the ankh of Prayer [20..1440|default:120]
+	#The cooldown in minutes to reset the perks with the Book of Oblivion [20..1440|default:120]
 	#Range: 20 ~ 1440
 	cooldown_reset_perk = 120
 
@@ -161,9 +161,9 @@
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
-	#The cooldown in minutes to pray with the Ankh [1..600|default:120]
-	#Range: 1 ~ 600
-	prayer_cooldown = 120
+	#The cooldown in minutes to pray with the Ankh [1..60|default:60]
+	#Range: 1 ~ 60
+	prayer_cooldown = 60
 
 #Allows to disable some magic items
 [allowedMagicItems]

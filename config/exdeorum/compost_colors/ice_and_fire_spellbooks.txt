@@ -1,0 +1,19 @@
+// Compost colors for ice_and_fire_spellbooks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+fire_dragon_priest_boots, #292022
+fire_dragon_priest_chestplate, #413939
+fire_dragon_priest_helmet, #41403e
+fire_dragon_priest_leggings, #2f2326
+fodaan, #505c5e
+ice_dragon_priest_boots, #22252a
+ice_dragon_priest_chestplate, #3a3d43
+ice_dragon_priest_helmet, #3e4041
+ice_dragon_priest_leggings, #2a2d33
+lightning_dragon_priest_boots, #251f28
+lightning_dragon_priest_chestplate, #413943
+lightning_dragon_priest_helmet, #413e43
+lightning_dragon_priest_leggings, #2c2332
+toornahkriin, #615255
+vulnilviir, #544b57
+vulonqo, #4d4d5a
+vulsilah, #61645a
+wooden_mask, #8d613d
