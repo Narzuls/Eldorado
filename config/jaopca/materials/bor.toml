@@ -12,6 +12,8 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "crystal"
+	#The color of this material.
+	color = 0x3E3E3E
 
 [create]
 	#The default byproduct material to output in Create's crushing.

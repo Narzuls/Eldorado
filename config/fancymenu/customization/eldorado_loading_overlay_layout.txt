@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1753046083971
+  last_edited_time = 1753295990620
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:77bacf7e-4824-4e16-b0e5-824df0188e0b-1753045894598] = [groups:][instances:]
+  [loading_requirement_container_meta:895b450c-8a77-4004-97a8-46e8f8f0e256-1753295836497] = [groups:][instances:]
 }
 
 menu_background {
@@ -164,7 +164,9 @@ element {
 
 element {
   bar_color = #FF881C
+  bar_texture = [source:local]/config/fancymenu/assets/loading_bar_texture_1.png
   background_color = #404040
+  background_texture = [source:local]/config/fancymenu/assets/loading_bar_texture_2.png
   direction = right
   progress_for_element_anchor = false
   progress_source = 100
@@ -239,10 +241,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 1011
   sticky_anchor = false
   anchor_point = vanilla
-  x = 345
-  y = 171
-  width = 456
-  height = 114
+  x = 228
+  y = 189
+  width = 504
+  height = 126
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -296,9 +298,9 @@ vanilla_button {
   auto_sizing_base_screen_height = 1011
   sticky_anchor = false
   anchor_point = vanilla
-  x = 345
-  y = 375
-  width = 456
+  x = 228
+  y = 415
+  width = 504
   height = 10
   stretch_x = false
   stretch_y = false
