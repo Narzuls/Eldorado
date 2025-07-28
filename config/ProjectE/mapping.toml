@@ -125,3 +125,25 @@
 		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
 		enabled = true
 
+	[CraftingMapper."Avaritia Extreme"]
+		#Maps avaritia recipes.
+		enabled = true
+
+	[CraftingMapper."Avaritia Compressor"]
+		#Maps avaritia recipes.
+		enabled = true
+
+[APICustomEMCMapper]
+
+	[APICustomEMCMapper.priority]
+		#Priority for this mod
+		avaritia = 1
+
+[permissions]
+
+	[permissions.avaritia]
+		#Allow mod 'avaritia' to set and or remove values for mod 'avaritia'. Options: [both, set, remove, none]
+		avaritia = "both"
+		#Allow mod 'avaritia' to set and or remove values for mod 'minecraft'. Options: [both, set, remove, none]
+		minecraft = "both"
+
