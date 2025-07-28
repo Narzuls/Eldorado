@@ -247,8 +247,15 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "avaritia": {
+    "extreme": true,
+    "compressor": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
+  },
+  "createsifter": {
+    "sifter_data": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -283,6 +290,9 @@
     "main": true,
     "display.content": true,
     "display.status": true
+  },
+  "replication": {
+    "matter_tank": true
   },
   "enderchests": {
     "hud": true

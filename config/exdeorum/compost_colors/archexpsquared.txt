@@ -1,0 +1,9 @@
+// Compost colors for archexpsquared. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blank_bow_a, #919191
+blank_bow_b, #919191
+blank_bow_c, #949494
+electrum_bow, #e0be90
+lead_bow, #665140
+necromium_bow, #868683
+rose_gold_bow, #ffffff
+silver_bow, #ffffff
