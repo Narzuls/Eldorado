@@ -1,0 +1,5 @@
+// Compost colors for overworld_netherite_ore. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ancient_millionaire_logo_item, #876b64
+ancientdebrispiece, #7a5147
+large_ancient_shard, #795046
+shardkeeper_advancement_item, #8c7873

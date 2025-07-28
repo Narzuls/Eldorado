@@ -1,0 +1,10 @@
+// Compost colors for archeryexp. You may add your own colors, change existing ones, or remove colors that aren't needed.
+diamond_arrow, #7ca797
+diamond_bow, #61684a
+gold_arrow, #d4a766
+gold_bow, #9a682f
+iron_arrow, #c8b9aa
+iron_bow, #90785b
+netherite_arrow, #8e757a
+netherite_bow, #5c3d41
+wooden_bow, #725a3a
