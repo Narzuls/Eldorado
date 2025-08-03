@@ -46,6 +46,7 @@ copper_sulfate, #3ea5ff
 copper_wire, #e68270
 creosote_bucket, #8d8a8a
 crude_oil_bucket, #909091
+crushed_raw_lithium, #ffffff
 cyan_multimeter, #848d97
 debug_cinderblock, #ccccca
 deposit_item, #ff97d3

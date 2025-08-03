@@ -313,6 +313,8 @@ battery/advanced_re_battery, #b44d15
 battery/charging_energy_crystal, #737986
 battery/charging_lapotron_crystal, #727989
 battery/charging_re_battery, #727a86
+battery/creative_battery, #d922a4
+battery/creative_battery_wireless, #da93e3
 battery/energy_crystal, #dd5c5c
 battery/itemadvbatchargecrystal, #82685a
 battery/itembatchargecrystal, #8087ac
@@ -1229,7 +1231,12 @@ crafting_elements/crafting_765_element, #9aee87
 crafting_elements/crafting_766_element, #58828d
 crafting_elements/crafting_767_element, #827296
 crafting_elements/crafting_768_element, #96b6b5
+crafting_elements/crafting_769_element, #d7d7d7
 crafting_elements/crafting_76_element, #bbbbbb
+crafting_elements/crafting_770_element, #c6a4bc
+crafting_elements/crafting_771_element, #b59aae
+crafting_elements/crafting_772_element, #895130
+crafting_elements/crafting_773_element, #97865c
 crafting_elements/crafting_77_element, #5e91f0
 crafting_elements/crafting_78_element, #5f93f2
 crafting_elements/crafting_79_element, #ffeba7
@@ -1305,7 +1312,6 @@ crop_genome/crop_genomeweed_iii, #bca09a
 crop_genome/crop_genomeyield_i, #e1a4d9
 crop_genome/crop_genomeyield_ii, #da82d3
 crop_genome/crop_genomeyield_iii, #d775d2
-crops/crop, #786546
 crushed/aluminium, #aca4ac
 crushed/arsenic, #b5bc97
 crushed/barium, #c3bc96
@@ -1376,7 +1382,7 @@ energy/magnet, #89737f
 energy/molot, #7c6b70
 energy/net, #685b44
 energy/purifier, #d9a579
-energy/relocator, #eef0f2
+energy/relocator, #2a615b
 energy/wind_meter, #e4a561
 energy/wrench, #ff932d
 energy_tools/chainsaw, #b98251
@@ -1834,7 +1840,7 @@ itemsunnariumpanel/qsp, #4ab57d
 itemsunnariumpanel/spsp, #ffff75
 itemsunnariumpanel/ssp, #e8eef0
 itemsunnariumpanel/usp, #7941b9
-jar_bee/bees, #ffffe4
+jar_bee/bees, #86a73e
 larva, #d7ccc3
 laser, #c96220
 lens/aerlinse, #72ffff
@@ -2016,6 +2022,7 @@ photoniumglass/photoniyglass8, #fe4646
 photoniumglass/photoniyglass9, #41ed43
 photoniy, #333ea2
 photoniy_ingot, #e1986
+pipette, #ae6bf1
 plant_mixture, #ffffff
 plast, #b6b6b6
 plastic_plate, #c8c8c8
@@ -2290,6 +2297,13 @@ reactors/uranium_fuel_rod, #8aa870
 reactors/vent, #ffa14a
 recipe_schedule, #bbbbbb
 red_phosphorus, #8a2014
+research_lens/lens_1, #48c6ff
+research_lens/lens_2, #ff9d6f
+research_lens/lens_3, #76fce7
+research_lens/lens_4, #f16287
+research_lens/lens_5, #fea1a0
+research_lens/lens_6, #47ead9
+research_lens/lens_7, #988a96
 rotor/adronrotor, #aefffe
 rotor/barionrotor, #fab2f7
 rotor/compressiridium, #fffffe
@@ -2329,6 +2343,7 @@ royal_jelly, #ffffff
 ruby_axe, #b53426
 ruby_pickaxe, #ac3425
 ruby_shovel, #b53d29
+sapling/rubber_sapling, #3a7c1c
 sapphire_axe, #4044a2
 sapphire_pickaxe, #414397
 sapphire_shovel, #4a4a9a

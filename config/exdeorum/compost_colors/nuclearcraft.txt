@@ -1,5 +1,6 @@
 // Compost colors for nuclearcraft. You may add your own colors, change existing ones, or remove colors that aren't needed.
 actuator, #ffffff
+advanced_processor, #cabcb4
 alugentum_dust, #ffffff
 aluminum_dust, #daede4
 aluminum_ingot, #c5e4d3
@@ -17,9 +18,16 @@ americium_243, #302d20
 americium_243_ni, #555e2f
 americium_243_ox, #555444
 americium_243_za, #7d723a
+americium_spallation_waste, #54513d
+antideuterium, #bbbfde
+antihelium, #b6bbd7
+antihelium3, #b6b9d7
+antihydrogen, #bcc0e0
+antitritium, #bbbfde
 arsenic_dust, #989b89
 barium_dust, #5b5b5b
 basic_electric_circuit, #658452
+basic_processor, #c2bcb6
 berkelium_247, #793304
 berkelium_247_ni, #764a04
 berkelium_247_ox, #7d4e54
@@ -28,12 +36,15 @@ berkelium_248, #6b2804
 berkelium_248_ni, #7f4804
 berkelium_248_ox, #824a50
 berkelium_248_za, #bc4a05
+berkelium_spallation_waste, #643c20
+beryllium_7, #8ca08c
 beryllium_dust, #fcffd7
 beryllium_ingot, #feffd9
 beryllium_nugget, #e6e4ae
 beryllium_plate, #ededa5
 bioplastic, #70785b
 bismuth_dust, #9a9898
+bismuth_spallation_waste, #cdc9d6
 borax_dust, #b6b6b6
 boron_10, #a8a8a8
 boron_10_ni, #a8a8a8
@@ -59,6 +70,7 @@ bronze_plate, #b28d68
 bscco_dust, #555050
 c_mn_blend_dust, #7c8496
 caesium_137_dust, #dadada
+calcium_48, #91a08a
 calcium_dust, #f4f2fc
 calcium_ingot, #dad9c8
 calcium_sulfate_dust, #fffaeb
@@ -78,6 +90,7 @@ californium_252, #51070a
 californium_252_ni, #614125
 californium_252_ox, #62264a
 californium_252_za, #96181b
+californium_spallation_waste, #391418
 carbon_manganese_dust, #361615
 carbon_manganese_ingot, #262320
 carobbiite_dust, #94a23a
@@ -86,6 +99,7 @@ charcoal_dust, #292929
 chromium_dust, #ababc3
 chromium_ingot, #ffffff
 coal_dust, #292929
+cobalt_60, #374354
 cobalt_chunk, #ddf1ff
 cobalt_dust, #5e84a7
 cobalt_ingot, #324358
@@ -96,6 +110,10 @@ cocoa_solids, #502200
 coil_bscco, #c3b8b8
 coil_copper, #ffcda8
 coil_magnesium_diboride, #18140f
+copernicium_291, #7a7600
+copernicium_291_ni, #9d9700
+copernicium_291_ox, #827d00
+copernicium_291_za, #a5a000
 copper_dust, #763a1f
 copper_plate, #eaa861
 crystal_binder_dust, #b92f4d
@@ -115,6 +133,7 @@ curium_247, #726873
 curium_247_ni, #4a3e4d
 curium_247_ox, #4a2c70
 curium_247_za, #7c4366
+curium_spallation_waste, #573062
 dark_chocolate, #2c110e
 depleted_fuel_americium_hea_242, #2f1616
 depleted_fuel_americium_hea_242_ni, #3a301b
@@ -260,7 +279,9 @@ electrum_dust, #bebede
 electrum_ingot, #a4a858
 electrum_nugget, #e6e4ae
 electrum_plate, #e0c96c
+elite_processor, #cabeb5
 emerald_dust, #9bffb2
+empty, #c5c9eb
 empty_sink, #9b9b9b
 end_of_the_world, #404640
 end_stone_dust, #a49487
@@ -416,7 +437,9 @@ gadolinium_dust, #5b5b5b
 geiger_counter, #767870
 gelatin, #6e6e6e
 germanium_dust, #d7d7f2
+glueballs, #b9bedd
 gold_dust, #fffff0
+gold_spallation_waste, #f5fa0e
 graham_cracker, #ffd35b
 graphite_dust, #252525
 graphite_ingot, #222222
@@ -424,6 +447,7 @@ graphite_plate, #3e3e41
 ground_cocoa_nibs, #d3c3b9
 hafnium_dust, #837c98
 hafnium_ingot, #948989
+hafnium_spallation_waste, #c0abae
 hard_carbon_dust, #36615b
 hard_carbon_ingot, #a2257
 hard_carbon_plate, #5ba190
@@ -432,6 +456,7 @@ hazmat_chest, #fff423
 hazmat_mask, #ffe14b
 hazmat_pants, #d6b819
 heavy, #587073
+heavy_spallation_waste, #30411f
 hev_boots, #9d664e
 hev_chest, #9d6b4a
 hev_helmet, #5c5551
@@ -441,8 +466,10 @@ hsla_steel_ingot, #68689d
 hsla_steel_plate, #d6e6ff
 hyperspace, #575454
 iodine_dust, #323232
+iridium_192, #b5a4b5
 iridium_dust, #d7d3f5
 iridium_ingot, #e4dae4
+iridium_spallation_waste, #f7e1fa
 iron_dust, #dcdcdc
 iron_plate, #a4a5a8
 irradiated_borax_dust, #ffffff
@@ -454,7 +481,9 @@ lead_nugget, #ffffff
 lead_plate, #5e727c
 lead_platinum_dust, #465050
 lead_platinum_ingot, #466468
+lead_spallation_waste, #6b8083
 light, #b4b9b9
+light_spallation_waste, #5e5f57
 lithium_6, #ffffff
 lithium_6_ni, #ffffff
 lithium_6_ox, #ffffff
@@ -472,6 +501,8 @@ lithium_manganese_dioxide_ingot, #707070
 lithium_manganese_dioxide_plate, #9ea8a4
 lithium_nugget, #eaedf2
 lithium_plate, #d2e6f1
+magnesium_24, #84838e
+magnesium_26, #7d7d86
 magnesium_chunk, #ffcfff
 magnesium_diboride_ingot, #110e0a
 magnesium_dust, #edddea
@@ -487,6 +518,7 @@ manganese_oxide_ingot, #627562
 manganese_plate, #fef5ff
 marshmallow, #ffffff
 medium, #a2a7a7
+mercury_spallation_waste, #ffffff
 milk_chocolate, #48180a
 molybdenum_dust, #cfddff
 money_for_nothing, #646266
@@ -501,6 +533,7 @@ neptunium_237, #364754
 neptunium_237_ni, #437268
 neptunium_237_ox, #435f8e
 neptunium_237_za, #5c7a7c
+neptunium_spallation_waste, #344e5e
 netherite_dust, #4a3923
 netherite_plate, #44403e
 neutronium_ingot, #191425
@@ -513,6 +546,7 @@ obsidian_dust, #230f48
 osmiridium_ingot, #c8d2f0
 osmium_dust, #7f89b6
 osmium_ingot, #7c8da2
+osmium_spallation_waste, #7fa1cd
 palladium_dust, #ffffff
 palladium_ingot, #ffffff
 palladium_plate, #ffffff
@@ -526,6 +560,7 @@ platinum_dust, #ffffff
 platinum_ingot, #91b2b5
 platinum_nugget, #ffffff
 platinum_plate, #abbfe7
+platinum_spallation_waste, #84cdd4
 plutonium_238, #b1b1b1
 plutonium_238_ni, #d0f1d0
 plutonium_238_ox, #d2d9f2
@@ -542,14 +577,19 @@ plutonium_242, #898989
 plutonium_242_ni, #e6ffe6
 plutonium_242_ox, #e6edff
 plutonium_242_za, #fefef2
+plutonium_spallation_waste, #b4b4b6
 polonium_dust, #76a098
+polonium_spallation_waste, #84b4b1
+positronium, #bbbfde
 potassium_dust, #a0a44b
 potassium_fluoride_dust, #ffffde
 potassium_hydroxide_dust, #fffffa
 potassium_ingot, #eefc08
 potassium_iodide_dust, #ffffff
 promethium_147_dust, #d6ffd9
+protactinium_231_dust, #a8848c
 protactinium_233_dust, #a0767d
+protactinium_spallation_waste, #bb8c94
 purpur_dust, #9b50b5
 pyrolitic_carbon_dust, #292929
 pyrolitic_carbon_ingot, #222222
@@ -559,6 +599,7 @@ rad_x, #c69b73
 radaway, #a89772
 radaway_slow, #a87f72
 radium_dust, #8a7a9e
+radium_spallation_waste, #a793bc
 research_paper, #ffffff
 rhodochrosite_dust, #581f28
 rhodochrosite_gem, #ffebf2
@@ -574,22 +615,25 @@ sic_fiber, #868273
 sic_sic_cmc_dust, #847a65
 sic_sic_cmc_ingot, #6c6658
 sic_sic_cmc_plate, #d9d9c5
+silicon_boule, #b1b1b1
 silicon_carbide_dust, #bebede
 silicon_carbide_ingot, #6b6558
 silicon_gem, #797979
+silicon_n_doped, #bcc5d0
+silicon_p_doped, #d0bcbc
+silicon_wafer, #c6c6c6
 silver_chunk, #ffffff
 silver_dust, #625e6e
 silver_ingot, #c9bfe3
 silver_nugget, #ffffff
 silver_plate, #fbffff
+sodium_22, #b49091
 sodium_dust, #866690
 sodium_fluoride_dust, #fffbe4
 sodium_hydroxide_dust, #ffffff
 sodium_ingot, #be9193
 source_calcium_48, #ffff47
-source_cobalt_60, #ffff47
 source_iridium_192, #ffff47
-source_sodium_22, #ffff47
 spaxelhoe_thorium, #292929
 spaxelhoe_tough, #89868e
 stainless_steel_ingot, #9aa2a4
@@ -602,6 +646,7 @@ strontium_dust, #a8acb2
 strontium_ingot, #c5ca9d
 sulfur_dust, #ffff72
 super_alloy_ingot, #765065
+tauonium, #bcc0e1
 tbp_dust, #523e41
 terbium_dust, #6884a5
 thallium_dust, #bebede
@@ -621,6 +666,7 @@ thorium_dust, #292929
 thorium_ingot, #292929
 thorium_nugget, #6b6469
 thorium_plate, #525858
+thorium_spallation_waste, #414143
 tin_chunk, #c3c6dc
 tin_dust, #bebede
 tin_ingot, #b9b9dd
@@ -641,6 +687,7 @@ tungsten_carbide_ingot, #282a28
 tungsten_dust, #444844
 tungsten_filament, #3d463e
 tungsten_ingot, #585c58
+tungsten_spallation_waste, #6b736e
 unknown_ingredient, #9d2828
 unsweetened_chocolate, #301f1b
 upgrade_energy, #eed964
@@ -650,6 +697,10 @@ uranium_233, #5e665c
 uranium_233_ni, #447841
 uranium_233_ox, #4e6f5e
 uranium_233_za, #5c8352
+uranium_234, #144816
+uranium_234_ni, #43070e
+uranium_234_ox, #73c43
+uranium_234_za, #374405
 uranium_235, #163d15
 uranium_235_ni, #165115
 uranium_235_ox, #164322
@@ -663,6 +714,7 @@ uranium_dust, #3c4b3d
 uranium_ingot, #485a48
 uranium_nugget, #ffffff
 uranium_plate, #b2e6af
+uranium_spallation_waste, #2f6134
 villiaumite_dust, #b2573c
 villiaumite_gem, #ffcfc2
 wanderer, #404043

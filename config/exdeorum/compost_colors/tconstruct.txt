@@ -194,7 +194,6 @@ seared_glass_pane, #3e3c39
 seared_reinforcement, #c09d62
 seared_soul_glass_pane, #79665a
 silky_cloth, #fff1d9
-silky_jewel, #ffe879
 sky_cake, #a2ffff
 sky_slime_ball, #80dcda
 sky_slime_bottle, #8ef7f5

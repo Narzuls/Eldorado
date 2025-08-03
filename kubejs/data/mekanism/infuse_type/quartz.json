@@ -1,0 +1,8 @@
+{
+  "type": "mekanism:infuse_type",
+  "color": "0xE0E0E0",
+  "display_name": {
+    "text": "Quartz"
+  },
+  "icon": "minecraft:item/nether_quartz"
+}

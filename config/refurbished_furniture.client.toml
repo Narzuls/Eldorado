@@ -1,6 +1,3 @@
-# If enabled, displays a toast notification when another player rings one of your doorbells.
-# Valid values: true, false
-doorbellNotification = true
 # The maximum distance that electricity nodes and connections can be seen by the camera.
 # Valid range: 1 to 128 (inclusive)
 electricityViewDistance = 48
@@ -8,6 +5,9 @@ electricityViewDistance = 48
 # Note: This is an experimental feature.
 # Valid values: true, false
 showCuttingBoardHelper = false
+# If enabled, displays a toast notification when another player rings one of your doorbells.
+# Valid values: true, false
+doorbellNotification = true
 
 # Experimental options
 [experimental]

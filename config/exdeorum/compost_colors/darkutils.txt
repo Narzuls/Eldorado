@@ -4,6 +4,7 @@ charm_sleep, #ffca86
 charm_warding, #d2c876
 tome_enchanting, #61644e
 tome_illager, #525864
+tome_pigpen, #725a5c
 tome_runelic, #6e504b
 tome_sga, #625064
 tome_shadows, #726b66

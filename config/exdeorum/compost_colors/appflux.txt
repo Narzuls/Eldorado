@@ -28,6 +28,7 @@ fe_64k_cell, #86daa4
 fe_64m_cell, #4b7c65
 fe_64m_portable_cell, #ffffff
 fe_cell_housing, #86c687
+fe_creative_cell, #a1bea7
 harden_insulating_resin, #8ee487
 induction_card, #cfaa94
 insulating_resin, #b4f8b5

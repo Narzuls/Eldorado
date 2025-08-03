@@ -1,7 +1,50 @@
 {
-  "MINE_PREVIOUS_TIER": true,
   "ALLOW_NO_ENERGY_MINERS": false,
   "MINER_CONFIGS": {
+    "aurantium": {
+      "energyStorage": 2000000,
+      "duration": 900,
+      "energyTick": 350,
+      "modifiers": {
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
+        },
+        "speed": {
+          "energy": 1.1,
+          "speed": 0.95,
+          "item": 1.0
+        }
+      }
+    },
+    "citrinetine": {
+      "energyStorage": 3000000,
+      "duration": 800,
+      "energyTick": 400,
+      "modifiers": {
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
+        },
+        "speed": {
+          "energy": 1.1,
+          "speed": 0.95,
+          "item": 1.0
+        }
+      }
+    },
     "azurine": {
       "energyStorage": 5000000,
       "duration": 600,
@@ -116,50 +159,6 @@
       "energyStorage": 6000000,
       "duration": 500,
       "energyTick": 550,
-      "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
-        "speed": {
-          "energy": 1.1,
-          "speed": 0.95,
-          "item": 1.0
-        }
-      }
-    },
-    "aurantium": {
-      "energyStorage": 2000000,
-      "duration": 900,
-      "energyTick": 350,
-      "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
-        "speed": {
-          "energy": 1.1,
-          "speed": 0.95,
-          "item": 1.0
-        }
-      }
-    },
-    "citrinetine": {
-      "energyStorage": 3000000,
-      "duration": 800,
-      "energyTick": 400,
       "modifiers": {
         "energy": {
           "energy": 0.9,

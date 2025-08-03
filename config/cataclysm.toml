@@ -509,6 +509,8 @@
 	#Scylla's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	"Scylla NatureHealing" = 25.0
+	#Scylla weather change
+	"Scylla Weather Change" = true
 	#Scylla's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	"Scylla DamageCap" = 22.0
@@ -524,8 +526,6 @@
 	#Scylla's Lightning Storm HP Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Lightning Storm HP Damage" = 0.04
-	#Scylla weather change
-	"Scylla Weather Change" = true
 
 [Maledictus]
 	#Maledictus's Health Multiplier

@@ -5,7 +5,7 @@
   "entries": [
     {
       "type": "minecraft:item",
-      "weight": 10,
+      "weight": 5,
       "functions": [
         {
           "function": "tombstone:check_enabled"
@@ -15,7 +15,7 @@
     },
     {
       "type": "minecraft:empty",
-      "weight": 90
+      "weight": 95
     }
   ]
 }

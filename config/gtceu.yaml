@@ -157,7 +157,7 @@ machines:
   # If true, progress will reset.
   # If false, progress will decrease to zero with 2x speed
   # Default: true
-  recipeProgressLowEnergy: false
+  recipeProgressLowEnergy: true
 
   # Whether to require a Wrench, Wirecutter, or other GregTech tools to break machines, casings, wires, and more.
   # Default: false
@@ -275,7 +275,7 @@ machines:
   # This is intended for modpack developers only, and is not playable without custom tweaks or addons.
   # Other mods can override this to true, regardless of the config file.
   # Default: false
-  highTierContent: true
+  highTierContent: false
 
   # Whether the Assembly Line should require the item inputs to be in order.
   # Default: true
@@ -491,7 +491,7 @@ gameplay:
 
   # Whether environmental hazards like pollution or radiation are active
   # Default: false
-  environmentalHazards: true
+  environmentalHazards: false
 
   # How much environmental hazards decay per chunk, per tick.
   # Default: 0.001
@@ -573,7 +573,7 @@ compat:
 
     # Which direction the buttons will go
     # Default: "VERTICAL"
-    direction: HORIZONTAL
+    direction: VERTICAL
 
     # How horizontally far away from the anchor to place the buttons
     # Default: 20
