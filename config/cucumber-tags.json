@@ -1,13 +1,8 @@
 {
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
   "forge:ingots/silver": "null",
-  "forge:ingots/signalum": "null",
   "forge:dusts/saltpeter": "null",
-  "forge:ingots/bronze": "null",
-  "forge:ingots/lumium": "null",
-  "forge:ingots/constantan": "null",
-  "forge:silicon": "null",
-  "forge:ingots/chrome": "null",
-  "forge:ingots/mithril": "null",
-  "forge:ingots/tungsten": "null"
+  "forge:ingots/aluminum": "null",
+  "forge:ingots/lead": "null"
+}l"
 }

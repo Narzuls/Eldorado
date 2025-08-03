@@ -1,6 +1,28 @@
 {
   "ALLOW_NO_ENERGY_MINERS": false,
   "MINER_CONFIGS": {
+    "caerium": {
+      "energyStorage": 6000000,
+      "duration": 500,
+      "energyTick": 550,
+      "modifiers": {
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
+        },
+        "speed": {
+          "energy": 1.1,
+          "speed": 0.95,
+          "item": 1.0
+        }
+      }
+    },
     "aurantium": {
       "energyStorage": 2000000,
       "duration": 900,
@@ -137,28 +159,6 @@
       "energyStorage": 7000000,
       "duration": 400,
       "energyTick": 600,
-      "modifiers": {
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        },
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
-        "speed": {
-          "energy": 1.1,
-          "speed": 0.95,
-          "item": 1.0
-        }
-      }
-    },
-    "caerium": {
-      "energyStorage": 6000000,
-      "duration": 500,
-      "energyTick": 550,
       "modifiers": {
         "energy": {
           "energy": 0.9,
