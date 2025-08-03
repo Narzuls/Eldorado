@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
       A: { item: 'avaritia:infinity_ingot' },
       B: { item: 'mysticalagriculture:awakened_supremium_block' },
       C: { item: 'botania:gaia_ingot' },
-      D: { item: 'refinedstorage:64k_storage_part' }
+      D: { item: 'extradisks:1048576k_storage_part' }
     },
     result: { item: 'extradisks:infinite_storage_part' }
   })
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
     key: {
       F: { item: 'avaritia:infinity_ingot' },
       H: { item: 'mekanism:pellet_antimatter' },
-      B: { item: 'refinedstorage:64k_fluid_storage_part' },
+      B: { item: 'extradisks:1048576k_fluid_storage_part' },
       G: { item: 'botania:gaia_ingot' },
       C: { item: 'mysticalagriculture:awakened_supremium_block' }
     },

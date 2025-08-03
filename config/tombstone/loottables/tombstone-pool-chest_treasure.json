@@ -1,6 +1,10 @@
 {
   "name": "tombstone:chest_treasure",
-  "rolls": 1.0,
+  "rolls": {
+    "type": "minecraft:uniform",
+    "min": 1.0,
+    "max": 3.0
+  },
   "bonus_rolls": 0.0,
   "entries": [
     {
@@ -92,7 +96,7 @@
     },
     {
       "type": "minecraft:empty",
-      "weight": 710
+      "weight": 870
     }
   ],
   "conditions": [

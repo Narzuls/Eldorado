@@ -21,6 +21,16 @@
           "function": "tombstone:check_enabled"
         }
       ],
+      "name": "tombstone:ritual_flute"
+    },
+    {
+      "type": "minecraft:item",
+      "weight": 20,
+      "functions": [
+        {
+          "function": "tombstone:check_enabled"
+        }
+      ],
       "name": "tombstone:receptacle_of_soul"
     },
     {
@@ -67,7 +77,7 @@
     },
     {
       "type": "minecraft:empty",
-      "weight": 440
+      "weight": 5800
     }
   ],
   "conditions": [

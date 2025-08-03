@@ -15,6 +15,16 @@
     },
     {
       "type": "minecraft:item",
+      "weight": 10,
+      "functions": [
+        {
+          "function": "tombstone:check_enabled"
+        }
+      ],
+      "name": "tombstone:ritual_flute"
+    },
+    {
+      "type": "minecraft:item",
       "weight": 40,
       "functions": [
         {
@@ -122,7 +132,7 @@
     },
     {
       "type": "minecraft:empty",
-      "weight": 675
+      "weight": 3350
     }
   ],
   "conditions": [

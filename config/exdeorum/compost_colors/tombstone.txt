@@ -33,6 +33,7 @@ magic_scroll, #ffe8ff
 readable_scroll, #d7ab5c
 receptacle_of_familiar, #73d55
 receptacle_of_soul, #623994
+ritual_flute, #658e5e
 scroll_of_aquatic_life, #d7ab5c
 scroll_of_feather_fall, #d7ab5c
 scroll_of_frost_resistance, #d7ab5c
