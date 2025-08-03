@@ -32,7 +32,7 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
     addSieveRecipes(input, 'exdeorum:string_mesh', itemName, stringChance)
     addSieveRecipes(input, 'exdeorum:flint_mesh', itemName, flintChance)
     addSieveRecipes(input, 'exdeorum:iron_mesh', itemName, ironChance)
-    addSieveRecipes(input, 'exdeorum:gold_mesh', itemName, goldChance)
+    addSieveRecipes(input, 'exdeorum:golden_mesh', itemName, goldChance)
     addSieveRecipes(input, 'exdeorum:diamond_mesh', itemName, diamondChance)
     addSieveRecipes(input, 'exdeorum:netherite_mesh', itemName, netheriteChance)
 }
@@ -91,7 +91,7 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
     // Loop through each gem and add sieve recipes
     gems.forEach(gem => {
         addSieveRecipes('minecraft:sand', 'exdeorum:iron_mesh', gem.getId(), 0.001);
-        addSieveRecipes('minecraft:sand', 'exdeorum:gold_mesh', gem.getId(), 0.001);
+        addSieveRecipes('minecraft:sand', 'exdeorum:golden_mesh', gem.getId(), 0.001);
         addSieveRecipes('minecraft:sand', 'exdeorum:diamond_mesh', gem.getId(), 0.001);
         addSieveRecipes('minecraft:sand', 'exdeorum:netherite_mesh', gem.getId(), 0.001);
     });
@@ -139,7 +139,7 @@ const addSieveItem = (input, itemName, stringChance, flintChance, ironChance, go
     // Loop through each gem and add sieve recipes
     gems.forEach(gem => {
         addSieveRecipes('exdeorum:dust', 'exdeorum:iron_mesh', gem.getId(), 0.001);
-        addSieveRecipes('exdeorum:dust', 'exdeorum:gold_mesh', gem.getId(), 0.001);
+        addSieveRecipes('exdeorum:dust', 'exdeorum:golden_mesh', gem.getId(), 0.001);
         addSieveRecipes('exdeorum:dust', 'exdeorum:diamond_mesh', gem.getId(), 0.001);
         addSieveRecipes('exdeorum:dust', 'exdeorum:netherite_mesh', gem.getId(), 0.001);
     });
