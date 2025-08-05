@@ -8,8 +8,8 @@
             "forge:tools/wrench": {"hammerlib:wrench": true},
             "forge:gears/diamond": {"hammerlib:gears/diamond": true},
             "forge:gears/gold": {"hammerlib:gears/gold": true},
-            "forge:gears/stone": {"hammerlib:gears/stone": true},
-            "forge:gears/netherite": {"hammerlib:gears/netherite": true}
+            "forge:gears/netherite": {"hammerlib:gears/netherite": true},
+            "forge:gears/stone": {"hammerlib:gears/stone": true}
         },
         "minecraft:block": {
             "minecraft:mineable/pickaxe": {"hammerlib:test_machine": true},

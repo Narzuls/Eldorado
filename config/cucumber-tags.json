@@ -1,8 +1,8 @@
 {
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
-  "forge:ingots/electrum": "null",
-  "forge:ingots/signalum": "null",
-  "forge:ingots/brass": "null",
-  "forge:gems/ruby": "null"
-}ull"
+  "forge:dusts/saltpeter": "null",
+  "forge:ingots/graphite": "null",
+  "forge:silicon": "null",
+  "forge:dusts/niter": "null"
+}l"
 }
