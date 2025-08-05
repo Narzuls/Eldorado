@@ -1,60 +1,11 @@
 {
   "ALLOW_NO_ENERGY_MINERS": false,
   "MINER_CONFIGS": {
-    "verdium": {
-      "energyStorage": 4000000,
-      "duration": 700,
-      "energyTick": 450,
-      "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
-        "speed": {
-          "energy": 1.1,
-          "speed": 0.95,
-          "item": 1.0
-        },
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        }
-      }
-    },
-    "rubetine": {
-      "energyStorage": 1000000,
-      "duration": 1000,
-      "energyTick": 300,
-      "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
-        "speed": {
-          "energy": 1.1,
-          "speed": 0.95,
-          "item": 1.0
-        },
-        "energy": {
-          "energy": 0.9,
-          "speed": 1.0,
-          "item": 1.0
-        }
-      }
-    },
     "amethystine": {
       "energyStorage": 7000000,
       "duration": 400,
       "energyTick": 600,
       "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -64,6 +15,11 @@
           "energy": 0.9,
           "speed": 1.0,
           "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
         }
       }
     },
@@ -72,11 +28,6 @@
       "duration": 500,
       "energyTick": 550,
       "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -86,6 +37,11 @@
           "energy": 0.9,
           "speed": 1.0,
           "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
         }
       }
     },
@@ -94,11 +50,6 @@
       "duration": 900,
       "energyTick": 350,
       "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -108,6 +59,11 @@
           "energy": 0.9,
           "speed": 1.0,
           "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
         }
       }
     },
@@ -116,11 +72,6 @@
       "duration": 800,
       "energyTick": 400,
       "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -130,6 +81,11 @@
           "energy": 0.9,
           "speed": 1.0,
           "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
         }
       }
     },
@@ -138,11 +94,6 @@
       "duration": 600,
       "energyTick": 500,
       "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -152,6 +103,11 @@
           "energy": 0.9,
           "speed": 1.0,
           "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
         }
       }
     },
@@ -160,11 +116,6 @@
       "duration": 300,
       "energyTick": 650,
       "modifiers": {
-        "item": {
-          "energy": 1.2,
-          "speed": 1.0,
-          "item": 1.75
-        },
         "speed": {
           "energy": 1.1,
           "speed": 0.95,
@@ -174,6 +125,55 @@
           "energy": 0.9,
           "speed": 1.0,
           "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
+        }
+      }
+    },
+    "verdium": {
+      "energyStorage": 4000000,
+      "duration": 700,
+      "energyTick": 450,
+      "modifiers": {
+        "speed": {
+          "energy": 1.1,
+          "speed": 0.95,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
+        }
+      }
+    },
+    "rubetine": {
+      "energyStorage": 1000000,
+      "duration": 1000,
+      "energyTick": 300,
+      "modifiers": {
+        "speed": {
+          "energy": 1.1,
+          "speed": 0.95,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.9,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.75
         }
       }
     }
